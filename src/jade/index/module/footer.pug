@@ -1,0 +1,22 @@
+-
+	var _data = dataFooter || {
+		supporters: [
+			{
+				logo: ''
+			}, {
+				logo: ''
+			}, {
+				logo: ''
+			}, {
+				logo: ''
+			}, {
+				logo: ''
+			}
+		]
+	}
+
+footer.footer
+	.footer-supporters
+		each item in _data.supporters
+			img.footer-supporters-logo(src=`${assetsPath}${item.logo}?v=${verTag}`)
+	

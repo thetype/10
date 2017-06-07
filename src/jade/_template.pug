@@ -1,0 +1,36 @@
+doctype html
+
+block var
+	- var pageTitl
+	- var pageDisc
+	- var pageKeyw
+	- var bodyClass
+	- var bodyClassModifier
+	- var modalClassModifier
+
+- if (bodyClassModifier) bodyClassModifier = " " + bodyClassModifier
+
+html(lang="zh-Hans")
+	block head
+		include _head
+	
+	body(class=(bodyClass + bodyClassModifier))
+		block bodyHeader
+		
+		block bodyMain
+			main(role="main")
+				//- .wechat-thumb(hidden=true)
+					img(src=`${assetsPath}assets/wechat-thumb.png?v=${verTag}`)
+				block mainHeader
+				block mainBody
+				block mainFooter
+		
+		block bodyFooter
+		
+		block dotTemplate
+		block dotTemplateGlobal
+		
+		block bodyScripts
+			//- script(type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js")
+			script(type="text/javascript" src=`${assetsPath}assets/libs.js?v=${verTag}`)
+			script(type="text/javascript" src=`${assetsPath}assets/app.js?v=${verTag}`)

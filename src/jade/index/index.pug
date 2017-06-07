@@ -1,0 +1,22 @@
+extends ../_template
+
+block var
+	- var assetsPath = ""
+	- var pageTitl = "Tenth Anniversary · Type is Beautiful" + ""
+	- var bodyClass = ""
+	- var bodyClassModifier = ""
+	//--- Data
+
+block mainHeader
+	//- include data/header
+	include module/header
+	//- include data/hero
+	include module/hero
+
+block mainBody
+	//- include data/body
+	include module/body
+
+block mainFooter
+	//- include data/footer
+	include module/footer
