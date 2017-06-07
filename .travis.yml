@@ -1,0 +1,20 @@
+language: ruby
+
+notifications:
+  email: false
+  slack:
+    rooms:
+      - secure: "XlgzVnvwnvYcNj10aa8+4LClG2bndMcGLwTscvnU5uB1p+u/uKGOnjZEOC3LEbse0Oov1r/51xqIjkccDGAp96qhnHtw4/p7U4FrHV6QNSKir86kRrqZeaBddVQHRSOJ13X7kJYoAqtz+vn8dDztE3uozTRUg/9VEy7wEYUsqHvBdhd1pVW2pFso5J0jWX9CVK4JFiFHmaAVfnie7Ly5IlKYkf/USw7tA79QTcOTpBb76fMeDm+aWV5e1ke2ldmxA/TKjpHFimefpQvdcsTvCTVCImcciFPorjnAlwYQZ/ACItxud4gaBeHOcipvZglQObzX8zXYrRyl0a8OkDGULaDKx9zCmUcSXvN1xZnuM1uhGqBzLLYvustUky/OSCVCmKoldXWncnE1rp/wibsOmCl+jaxLuEzRKSknSb/BUJNi/0Rz4p/OLs191ipvHm0lUy/H7eIg0X73AJTm+DiCh07XqQ1KzVI4B+OTy4lCjrEFWaYAipo0ZWh7jp+gqqfdHOYchhmnD1gAjNqeSh62fLAHfGb+yQZGEmT19SldI87N51EyVBQzDcDrnO5FyW4+aHbM23S7gmIXUd/E8F4NOgerpiPYqEwN5MyQRADp2I7gSan7/l1LGeQaKKS8cYCyWlwPqH0h1qzjC6ziNQibpKMcM4TG7unxqcgC2sPkqlA="
+    on_success: always
+
+branches:
+  only:
+  - master
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: test
+  on:   
+    branch: master
