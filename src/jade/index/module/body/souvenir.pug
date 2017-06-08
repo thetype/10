@@ -1,1 +1,50 @@
+-
+	var _data = dataSouvenir || {
+		heading: '十周年纪念产品',
+		list: [
+			{
+				thumb: 'images/image-sample.jpg',
+				name:  'Type is Beautiful · Tee',
+				price: '¥99.00',
+				link:  '#'
+			}, {
+				thumb: 'images/image-sample.jpg',
+				name:  '活字排版明信片',
+				price: '¥20.00',
+				link:  '#'
+			}, {
+				thumb: 'images/image-sample.jpg',
+				name:  'TIB10 · 纪念海报',
+				price: '¥250.00',
+				link:  '#'
+			}, {
+				thumb: 'images/image-sample.jpg',
+				name:  '上海活字 · 便携印刷锤海报',
+				price: '¥250.00',
+				link:  '#'
+			}, {
+				thumb: 'images/image-sample.jpg',
+				name:  '上海活字 · 铸字机海报',
+				price: '¥250.00',
+				link:  '#'
+			}, {
+				thumb: 'images/image-sample.jpg',
+				name:  '字谈字畅 · 播客主题海报',
+				price: '¥250.00',
+				link:  '#'
+			}
+		]
+	}
+
 section.home-body-souvenir
+	.souvenir
+		h3.souvenir-heading= _data.heading
+		ul.souvenir-list
+			each item in _data.list
+				li.souvenir-item
+					a.souvenir-target(href=item.link)
+						figure.souvenir-thumb
+							img.souvenir-thumb-img(src=`${assetsPath}${item.thumb}?v=${verTag}`)
+						.souvenir-info
+							h5.souvenir-name= item.name
+							p.souvenir-price= item.price
