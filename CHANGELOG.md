@@ -1,6 +1,17 @@
 # CHANGELOG
 
-### v0.1.0
+### Version: 0.2.0
+
+#### Testbench
+- <https://realfish.github.io/tib-tenth/?v0.2.0>
+
+#### Added
++ Restructer the homepage of the TIB10-Recap site.
++ Fill the draft copy with some sample data.
+
+
+
+### Version: 0.1.0
 
 #### Testbench
 - <https://realfish.github.io/tib-tenth/?v0.1.0>

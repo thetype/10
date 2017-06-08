@@ -21,6 +21,24 @@
 		"oAP": "\/test\/.travis.yml",
 		"oF": 1
 		},
+	"\/_copy\/[20170608]10.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/test\/_copy\/[20170608]10.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/_design": {
 		"ft": 65536,
 		"oA": 1,
@@ -142,6 +160,66 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/src\/images\/image-sample.jpg": {
+		"ft": 16384,
+		"iS": 607957,
+		"oA": 2,
+		"oAP": "\/test\/images\/image-sample.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/sponser-arphic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/test\/images\/sponser-arphic.svg",
+		"oF": 3,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/images\/sponser-founder.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/test\/images\/sponser-founder.svg",
+		"oF": 3,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/images\/sponser-hanyi.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/test\/images\/sponser-hanyi.svg",
+		"oF": 3,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/images\/sponser-makefont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/test\/images\/sponser-makefont.svg",
+		"oF": 3,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/images\/sponser-monotype.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/test\/images\/sponser-monotype.svg",
+		"oF": 3,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/src\/jade\/_head.pug": {
 		"cOD": 0,
 		"ft": 512,
@@ -174,6 +252,22 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/src\/jade\/index\/module\/body\/post.pug": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/test\/jade\/index\/module\/body\/post.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/src\/jade\/index\/module\/body\/souvenir.pug": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/test\/jade\/index\/module\/body\/souvenir.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/src\/jade\/index\/module\/footer.pug": {
 		"cOD": 0,
 		"ft": 512,
@@ -190,11 +284,19 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/src\/jade\/index\/module\/hero.pug": {
+	"\/src\/jade\/index\/module\/header\/brand.pug": {
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/test\/jade\/index\/module\/hero.html",
+		"oAP": "\/test\/jade\/index\/module\/header\/brand.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/src\/jade\/index\/module\/header\/slideshow.pug": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/test\/jade\/index\/module\/header\/slideshow.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -373,7 +475,7 @@
 		"sM": 1,
 		"sU": 1
 		},
-	"\/src\/less\/module\/body.less": {
+	"\/src\/less\/module\/brand.less": {
 		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
@@ -382,7 +484,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/test\/less\/test\/assets\/body.css",
+		"oAP": "\/test\/less\/test\/assets\/brand.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -390,7 +492,7 @@
 		"sM": 1,
 		"sU": 1
 		},
-	"\/src\/less\/module\/footer.less": {
+	"\/src\/less\/module\/post.less": {
 		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
@@ -399,7 +501,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/test\/less\/test\/assets\/footer.css",
+		"oAP": "\/test\/less\/test\/assets\/post.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -407,7 +509,7 @@
 		"sM": 1,
 		"sU": 1
 		},
-	"\/src\/less\/module\/header.less": {
+	"\/src\/less\/module\/slideshow.less": {
 		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
@@ -416,7 +518,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/test\/less\/test\/assets\/header.css",
+		"oAP": "\/test\/less\/test\/assets\/slideshow.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -424,7 +526,7 @@
 		"sM": 1,
 		"sU": 1
 		},
-	"\/src\/less\/module\/hero.less": {
+	"\/src\/less\/module\/souvenir.less": {
 		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
@@ -433,7 +535,24 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/test\/less\/test\/assets\/hero.css",
+		"oAP": "\/test\/less\/test\/assets\/souvenir.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/src\/less\/template\/home.less": {
+		"aP": 1,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/test\/less\/test\/assets\/home.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -520,7 +639,7 @@
 	"displayValue": "TIB-Tenth",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 518475218
+	"lastBuiltDate": 518637952
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
