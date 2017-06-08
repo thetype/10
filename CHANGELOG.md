@@ -1,5 +1,15 @@
 # CHANGELOG
 
+### Version: 0.2.1
+
+#### Testbench
+- <https://realfish.github.io/tib-tenth/?v0.2.1>
+
+#### Fixed
++ Fix the `overflow: hidden` failure in Safari (Mac) for `$('.souvenir-thumb')`.
+
+
+
 ### Version: 0.2.0
 
 #### Testbench
