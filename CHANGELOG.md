@@ -1,6 +1,9 @@
-# CHANGELOG
+CHANGELOG
+=========
 
-### Version: 0.2.1
+
+
+## [0.2.1] (2017-06-09)
 
 #### Testbench
 - <https://realfish.github.io/tib-tenth/?v0.2.1>
@@ -10,7 +13,7 @@
 
 
 
-### Version: 0.2.0
+## [0.2.0] (2017-06-09)
 
 #### Testbench
 - <https://realfish.github.io/tib-tenth/?v0.2.0>
@@ -21,7 +24,7 @@
 
 
 
-### Version: 0.1.0
+## 0.1.0 (2017-06-08)
 
 #### Testbench
 - <https://realfish.github.io/tib-tenth/?v0.1.0>
@@ -36,3 +39,8 @@
 	+ Add some JS and CSS deps.
 + Configure Travis CI workflow.
 + Test the GitHub Pages deployment: <https://realfish.github.io/tib-tenth/>.
+
+
+
+[0.2.1]: https://github.com/realfish/tib-tenth/compare/v0.2.0...v0.2.1
+[0.2.0]: https://github.com/realfish/tib-tenth/compare/v0.1.0...v0.2.0
