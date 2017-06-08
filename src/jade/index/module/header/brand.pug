@@ -1,0 +1,20 @@
+-
+	var _data = dataHeader || {
+		tib: {
+			logotype: 'assets/logotype.svg',
+			slogan: '文字设计与视觉文化',
+		},
+		logo: {
+			text: '2007–2017<br>Tenth Anniversary'
+		}
+		
+		
+	}
+
+.brand-header
+	.brand-tib
+		img.brand-tib-logotype(src=`${assetsPath}${_data.tib.logotype}?v=${verTag}`)
+		p.brand-tib-slogan= _data.tib.slogan
+	.brand-tib10
+		.brand-tib10-icon
+		.brand-tib10-text!= _data.logo.text

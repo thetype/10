@@ -1,20 +1,3 @@
--
-	var _data = dataHeader || {
-		tib: {
-			logotype: 'assets/logotype.svg',
-			slogan: '文字设计与视觉文化',
-		},
-		logo: {
-			text: '2007–2017<br>Tenth Anniversary'
-		}
-		
-		
-	}
-
-header.header
-	.tib
-		img.tib-logotype(src=`${assetsPath}${_data.tib.logotype}?v=${verTag}`)
-		p.tib-slogan= _data.tib.slogan
-	.logo
-		.logo-icon
-		.logo-text!= _data.logo.text
+header.home-header
+	include header/brand
+	include header/slideshow

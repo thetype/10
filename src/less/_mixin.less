@@ -14,14 +14,14 @@
 }
 
 .color-transition() {
-	@dur: 0.15s;
+	@dur: 0.25s;
 	
 	transition:
-		border-color @dur ease-out,
-		background-color @dur ease-out,
-		color @dur ease-out,
-		fill @dur ease-out,
-		opacity @dur ease-out;
+		border-color @dur ease-in-out,
+		background-color @dur ease-in-out,
+		color @dur ease-in-out,
+		fill @dur ease-in-out,
+		opacity @dur ease-in-out;
 	will-change:
 		border-color,
 		background-color,
