@@ -1,0 +1,85 @@
+/*--- Brand header ---*/
+.brand-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.brand-tib {
+	width: (160em/16);
+	height: (42em/16);
+	overflow: hidden;
+}
+.brand-tib-logotype {
+	display: block;
+	height: (25em/16);
+	padding-top: (1em/16);
+	padding-left: (1em/16);
+}
+.brand-tib-slogan {
+	@brand-tib-slogan-tracking: (8em/10);
+	
+	padding-top: (6em/10);
+	padding-left: (3em/10);
+	margin-left: (-@brand-tib-slogan-tracking);
+	margin-right: (-@brand-tib-slogan-tracking);
+	font-size: (10em/16);
+	font-weight: 700;
+	letter-spacing: @brand-tib-slogan-tracking;
+	text-indent: @brand-tib-slogan-tracking;
+	white-space: nowrap;
+}
+
+.brand-tib10 {
+	display: flex;
+	width: (160em/16);
+	height: (42em/16);
+	overflow: hidden;
+}
+.brand-tib10-icon {
+	display: flex;
+	order: 1;
+	height: (40em/16);
+	padding-top: (1em/16);
+	padding-right: (16em/16);
+	
+	&::before {
+		content: "";
+		display: block;
+		width: (1em/16);
+		height: (40em/16);
+		margin-right: (7em/16);
+		background-color: @bg-black;
+	}
+	
+	&::after {
+		content: "";
+		display: block;
+		width: (40em/16);
+		height: (40em/16);
+		border-radius: 100%;
+		border: (1em/16) solid @bg-black;
+		box-sizing: border-box;
+	}
+}
+.brand-tib10-text {
+	order: 2;
+	height: (40em/16);
+	padding-top: (2em/16);
+	font-weight: 600;
+	line-height: (20/16);
+}
+/*--- Brand header END ---*/
+
+/*--- Brand footer ---*/
+.brand-footer {
+	margin: 0 auto;
+	text-align: center;
+}
+.brand-copyright {
+	margin-bottom: (8em/16);
+}
+.brand-desc {
+	font-size: (12em/16);
+	line-height: (14/12);
+}
+/*--- Brand footer END ---*/
