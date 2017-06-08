@@ -3,6 +3,16 @@ CHANGELOG
 
 
 
+## [0.2.2] (2017-06-09)
+
+#### Testbench
+- <https://realfish.github.io/tib-tenth/?v0.2.2>
+
+#### Fixed
++ Restore completeness  of the `.brand-tib10`.
+
+
+
 ## [0.2.1] (2017-06-09)
 
 #### Testbench
@@ -41,6 +51,6 @@ CHANGELOG
 + Test the GitHub Pages deployment: <https://realfish.github.io/tib-tenth/>.
 
 
-
+[0.2.2]: https://github.com/realfish/tib-tenth/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/realfish/tib-tenth/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/realfish/tib-tenth/compare/v0.1.0...v0.2.0
