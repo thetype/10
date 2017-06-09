@@ -35,6 +35,15 @@
 		transform: rotateZ(15deg);
 		user-select: none;
 	}
+	
+	@media (max-width: 639px) {
+		font-size: (18em/16);
+		
+		&::after {
+			font-size: (12em/18);
+			border-width: (1.5em/12);
+		}
+	}
 }
 
 .souvenir-list {
@@ -94,6 +103,12 @@
 		opacity: 0;
 		.color-transition();
 	}
+	
+	@media (max-width: 639px) {
+		width: (220em/16);
+		height: (220em/16);
+		border-width: (2em/16);
+	}
 }
 .ua-Pointer .souvenir-target:hover  .souvenir-thumb,
             .souvenir-target:active .souvenir-thumb {
@@ -118,4 +133,10 @@
 	margin-top: (24em/20);
 	margin-bottom: (8em/20);
 	font-size: (20em/16);
+	
+	@media (max-width: 639px) {
+		margin-top: (12em/16);
+		margin-bottom: (4em/16);
+		font-size: (18em/16);
+	}
 }
