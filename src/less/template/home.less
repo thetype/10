@@ -8,6 +8,13 @@
 		padding-top: (24em/16);
 		padding-bottom: (24em/16);
 		margin: 0 (24em/16);
+		
+		@media (max-width: 639px) {
+			// padding-top: (16em/16);
+			// padding-bottom: (16em/16);
+			margin-left: (8em/16);
+			margin-right: (8em/16);
+		}
 	}
 	
 	.slideshow {
@@ -24,7 +31,18 @@
 	padding-top: (160em/16);
 	padding-bottom: (96em/16);
 	
+	@media (max-width: 639px) {
+		padding-top: (96em/16);
+		padding-bottom: (64em/16);
+	}
+	
 	.brand-footer {
 		width: (352em/16);
+		
+		@media (max-width: 479px) {
+			width: auto;
+			margin-left: (32em/16);
+			margin-right: (32em/16);
+		}
 	}
 }
