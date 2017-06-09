@@ -40,5 +40,6 @@ head
 	
 	block headScripts
 		//- script(type="text/javascript" src=`${assetsPath}assets/vconsole.min.js?v=${verTag}`)
-		//- script(type='text/javascript').
-			var _hmt = _hmt || [];
+		script(type="text/javascript" src='https://use.typekit.net/vmj4ivh.js')
+		script(type='text/javascript').
+			try{Typekit.load({ async: true });}catch(e){}

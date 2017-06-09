@@ -5,9 +5,15 @@
 }
 
 .brand-tib {
+	flex-shrink: 0;
 	width: (160em/16);
 	height: (42em/16);
 	overflow: hidden;
+	
+	@media (max-width: 639px) {
+		order: 2;
+		font-size: (10px);
+	}
 }
 .brand-tib-logotype {
 	display: block;
@@ -31,7 +37,16 @@
 
 .brand-tib10 {
 	display: flex;
+	flex-shrink: 0;
 	height: (42em/16);
+	
+	@media (max-width: 639px) {
+		order: 1;
+	}
+	
+	@media (max-width: 359px) {
+		font-size: (14px);
+	}
 }
 .brand-tib10-icon {
 	display: flex;
