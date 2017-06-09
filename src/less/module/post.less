@@ -7,6 +7,10 @@
 	font-size: (28em/16);
 	line-height: (40/28);
 	text-align: center;
+	
+	@media (max-width: 1279px) {
+		width: (640em/28);
+	}
 }
 .post-h3 {
 	width: (736em/20);
@@ -16,18 +20,26 @@
 	margin-right: auto;
 	font-size: (20em/16);
 	font-weight: 400;
-	line-height: (36/20);
+	line-height: (30/20);
 	text-align: center;
+	
+	@media (max-width: 1279px) {
+		width: (640em/20);
+	}
 }
 /*--- Headings END ---*/
 
 /*--- Body text ---*/
 .post-body {
-	width: (1120em/16);
+	width: ((1120em + 4)/16);
 	column-width: (352em/16);
 	column-gap: 2em;
 	margin-left: auto;
 	margin-right: auto;
+	
+	@media (max-width: 1279px) {
+		width: ((800em + 4)/16);
+	}
 }
 .post-p {
 	font-size: 1em;
@@ -50,15 +62,23 @@
 	margin-bottom: (96em/16);
 	margin-left: (48em/16);
 	margin-right: (48em/16);
+	
+	@media (max-width: 1279px) {
+		margin-left: (4em/16);
+		margin-right: (4em/16);
+	}
 }
 .post-gallery-item {
 	flex-basis: 25%;
 	flex-shrink: 1;
-	border: (6em/16) solid @bg-black;
+	border: (5em/16) solid @bg-black;
 	margin-left: (16em/16);
+	&:first-child { margin-left: 0; }
 	
-	&:first-child {
-		margin-left: 0;
+	@media (max-width: 1279px) {
+		border: (4em/16) solid @bg-black;
+		margin-left: (4em/16);
+		&:first-child { margin-left: 0; }
 	}
 }
 .post-figure {
