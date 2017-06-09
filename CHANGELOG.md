@@ -1,6 +1,14 @@
 CHANGELOG
 =========
 
+### Version [0.3.1] (2017-06-10)
+
+#### Testbench
+- <https://realfish.github.io/tib-tenth/?v0.3.1>
+
+#### Fixed
++ Fix the centering for `.souvenir-thumb` with micro-typography polishments.
+
 ### Version [0.3.0] (2017-06-10)
 
 #### Testbench
@@ -17,6 +25,7 @@ CHANGELOG
 * * *
 
 ### Version [0.2.2] (2017-06-09)
+
 #### Testbench
 - <https://realfish.github.io/tib-tenth/?v0.2.2>
 
@@ -60,6 +69,7 @@ CHANGELOG
 
 
 
+[0.3.1]: https://github.com/realfish/tib-tenth/compare/v0.3.0...v0.3.1
 [0.3.0]: https://github.com/realfish/tib-tenth/compare/v0.2.2...v0.3.0
 [0.2.2]: https://github.com/realfish/tib-tenth/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/realfish/tib-tenth/compare/v0.2.0...v0.2.1
