@@ -51,6 +51,7 @@
 	justify-content: center;
 	flex-wrap: wrap;
 	max-width: (1080em/16);
+	padding: 0 (24em/16);
 	margin: (16em/16) auto 0;
 }
 .souvenir-item {
@@ -59,6 +60,21 @@
 	flex-shrink: 0;
 	width: (240em/16);
 	margin: (32em/16) (60em/16);
+	
+	@media (max-width: 1279px) {
+		margin-left: (48em/16);
+		margin-right: (48em/16);
+	}
+	
+	@media (max-width: 959px) {
+		margin-left: (32em/16);
+		margin-right: (32em/16);
+	}
+	
+	@media (max-width: 639px) {
+		margin-left: (24em/16);
+		margin-right: (24em/16);
+	}
 }
 .souvenir-target {
 	display: block;
