@@ -2,18 +2,44 @@
 	padding-top: (48em/16);
 	padding-bottom: (48em/16);
 	background-color: @bg-white;
+	
+	& *::selection {
+		background-color: fadeout(@bg-theme, 1%);
+		color: @text-main;
+	}
 }
 
 .souvenir-heading {
+	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: (20em/16);
 	text-align: center;
+	
+	&::after {
+		content: "限";
+		position: relative;
+		top: (-6em/12);
+		left: (3em/12);
+		display: inline-block;
+		width: (22em/12);
+		background-color: @bg-theme;
+		border-radius: 100%;
+		border: (2em/12) solid @bg-black;
+		margin-right: (-12em/12);
+		font-family: @font-sans;
+		font-size: (12em/20);
+		font-weight: 700;
+		text-indent: (1em/12);
+		line-height: (22/12);
+		transform: rotateZ(15deg);
+		user-select: none;
+	}
 }
 
 .souvenir-list {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
 	max-width: (1080em/16);
 	margin: (16em/16) auto 0;
@@ -33,10 +59,10 @@
 .souvenir-thumb {
 	position: relative;
 	overflow: hidden;
-	width: (220em/16);
-	height: (220em/16);
+	width: (218em/16);
+	height: (218em/16);
 	border-radius: 100%;
-	border: (2em/16) solid @bg-black;
+	border: (3em/16) solid @bg-black;
 	background-color: @bg-theme;
 	
 	&::before {
