@@ -211,8 +211,7 @@ TIB.Slideshow = class _Slideshow {
 	
 	init() {
 		this._initList();
-		
-		if (document.querySelector('html').classList.contains('ua-Pointer')) {
+		if (document.querySelector('.ua-Pointer')) {
 			this._initPager();
 		} else {
 			this._initTouch();
@@ -220,18 +219,4 @@ TIB.Slideshow = class _Slideshow {
 	}
 };
 
-})();
-
-
-// Testing
-(function() { 'use strict';
-
-let hero = new TIB.Slideshow({
-	el:    '.slideshow',
-	list:  '.slideshow-list',
-	prev:  '.slideshow-pager--prev',
-	next:  '.slideshow-pager--next'
-});
-hero.init();
-	
 })();
