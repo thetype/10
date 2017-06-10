@@ -1,6 +1,6 @@
 /* global doT, wx */
 
-const ENV = ENV || 'production';
+// const ENV = ENV || 'production';
 
 // Global namespace for the New Money Selected app
 const TIB = TIB || {};
