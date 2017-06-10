@@ -6,15 +6,15 @@ const ENV = 'production';
 let _hmt = _hmt || [];
 
 // Global namespace for the New Money Selected app
-const NME = NME || {};
+const TIB = TIB || {};
 
 /*
-NME.API_DOMAIN =
+TIB.API_DOMAIN =
 	typeof gon === 'object' && gon.env === 'production'
 	? ''
 	: 'http://test.xinqian.me';
 */
-NME.API_DOMAIN =
+TIB.API_DOMAIN =
 	ENV === 'production'
 	? 'http://xinqian.me'
 	: 'http://test.xinqian.me';
