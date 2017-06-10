@@ -1,6 +1,24 @@
 CHANGELOG
 =========
 
+### Version [0.4.0] (2017-06-11)
+
+#### Testbench
+- <https://realfish.github.io/tib-tenth/?v0.4.0>
+
+#### Added
++ Make a responsive slideshow component.
++ Add main logics for the `home` view.
+
+#### Changed
+* Remove the unused JS dep `doT.js`.
+* Remove unused modules for `app.js`.
+
+#### Known issues
+* The ratio of slideshow for mobile landscape screens.
+
+* * *
+
 ### Version [0.3.1] (2017-06-10)
 
 #### Testbench
@@ -69,6 +87,7 @@ CHANGELOG
 
 
 
+[0.4.0]: https://github.com/realfish/tib-tenth/compare/v0.3.1...v0.4.0
 [0.3.1]: https://github.com/realfish/tib-tenth/compare/v0.3.0...v0.3.1
 [0.3.0]: https://github.com/realfish/tib-tenth/compare/v0.2.2...v0.3.0
 [0.2.2]: https://github.com/realfish/tib-tenth/compare/v0.2.1...v0.2.2
