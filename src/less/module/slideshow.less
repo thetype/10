@@ -71,10 +71,7 @@
 	background-position: center;
 }
 
-
-
-
-
+/*--- Nav ---*/
 .slideshow-nav {
 	position: absolute;
 	z-index: @zIndex-3;
@@ -82,10 +79,9 @@
 	width: 100%;
 	height: 100%;
 	transform: translate3d(0,0,0);
-	
-	.ua-Pointer & {
-		display: block;
-	}
+}
+.ua-Pointer .slideshow-nav {
+	display: block;
 }
 
 .slideshow-pager {
@@ -95,14 +91,18 @@
 	height: 100%;
 	transform: translate3d(0,0,0);
 	
-	&::before {
+	&::before,
+	&::after {
 		content: "";
+		position: absolute;
 		display: block;
+		/*
 		width: 100%;
 		height: 100%;
 		padding: 1em 0;
 		margin-top: -1em;
 		background-color: @bg-theme;
+		*/
 		opacity: 0;
 		will-change:
 			transform,
@@ -111,18 +111,42 @@
 			transform .25s ease-out,
 			opacity   .15s ease-out;
 	}
+	&::before {
+		top: (-24em/16);
+		height: 47%;
+		border-bottom: (128px) solid transparent;
+	}
+	&::after  {
+		bottom: (-24em/16);
+		height: 53%;
+		border-top: (128px) solid transparent;
+	}
 }
 .slideshow-pager--prev {
 	left: 0;
-	&::before { transform: translate3d((-115%), 0, 0); }
+	
+	&::before,
+	&::after {
+		left: 0;
+		border-left: (128em/16) solid @bg-theme;
+		transform: translate3d((-115%), 0, 0);
+	}
 }
 .slideshow-pager--next {
 	right: 0;
-	&::before { transform: translate3d((115%), 0, 0); }
+	
+	&::before,
+	&::after {
+		right: 0;
+		border-right: (128em/16) solid @bg-theme;
+		transform: translate3d((115%), 0, 0);
+	}
 }
 .ua-Pointer .slideshow-pager:hover {
-	&::before {
+	&::before,
+	&::after {
 		opacity: 1;
 		transform: translate3d(0,0,0);
 	}
 }
+/*--- Nav END ---*/
