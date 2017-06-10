@@ -435,24 +435,17 @@
 
 /* global doT, wx */
 
-const ENV = 'production';
-
-// Baidu statistics
-let _hmt = _hmt || [];
+const ENV = ENV || 'production';
 
 // Global namespace for the New Money Selected app
-const NME = NME || {};
+const TIB = TIB || {};
 
 /*
-NME.API_DOMAIN =
-	typeof gon === 'object' && gon.env === 'production'
-	? ''
-	: 'http://test.xinqian.me';
-*/
-NME.API_DOMAIN =
+TIB.API_DOMAIN =
 	ENV === 'production'
-	? 'http://xinqian.me'
-	: 'http://test.xinqian.me';
+	? 'http://thetype.com'
+	: 'http://test.thetype.com';
+*/
 
 
 (function() {
@@ -492,7 +485,7 @@ NME.API_DOMAIN =
 })();
 
 
-NME.Ajax = class _NMAjax {
+TIB.Ajax = class _Ajax {
 	static GET(URL, param) {
 		let query = '';
 		if (param) {
@@ -503,7 +496,7 @@ NME.Ajax = class _NMAjax {
 			query = query.slice(0, -1);
 		}
 		
-		let url = NME.API_DOMAIN + URL + query;
+		let url = TIB.API_DOMAIN + URL + query;
 		
 		return fetch(url, {
 			method: 'GET'
@@ -520,7 +513,7 @@ NME.Ajax = class _NMAjax {
 	}
 	
 	static POST(URL, param, credentials) {
-		let url = NME.API_DOMAIN + URL;
+		let url = TIB.API_DOMAIN + URL;
 		let bodyData = JSON.stringify(param);
 		
 		return fetch(url, {
@@ -541,7 +534,7 @@ NME.Ajax = class _NMAjax {
 	}
 	
 	static PUT(URL, param, credentials) {
-		let url = NME.API_DOMAIN + URL;
+		let url = TIB.API_DOMAIN + URL;
 		let bodyData = JSON.stringify(param);
 		
 		return fetch(url, {
@@ -563,7 +556,7 @@ NME.Ajax = class _NMAjax {
 };
 
 
-NME.Util = class _NMUtil {
+TIB.Util = class _Util {
 	static delegate(event, targSelector, wrapSelector, callback) {
 		let $wrap = document.querySelector(wrapSelector);
 		
@@ -599,7 +592,7 @@ NME.Util = class _NMUtil {
 				query = query.slice(0, -1);
 			}
 			
-			url = NME.API_DOMAIN + url + query;
+			url = TIB.API_DOMAIN + url + query;
 			
 			if (url.match(/\?/)) {
 				url += `&callback=${name}`;
@@ -791,6 +784,21 @@ NME.Util = class _NMUtil {
 		});
 	}
 };
+
+
+(function() { 'use strict';
+
+if (document.querySelector('.home')) {
+	let hero = new TIB.Slideshow({
+		el:    '.slideshow',
+		list:  '.slideshow-list',
+		prev:  '.slideshow-pager--prev',
+		next:  '.slideshow-pager--next'
+	});
+	hero.init();
+}
+
+})();
 
 
 /**
