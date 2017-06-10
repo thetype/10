@@ -170,6 +170,66 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/src\/images\/slide-sample-1.jpg": {
+		"ft": 16384,
+		"iS": 184198,
+		"oA": 0,
+		"oAP": "\/test\/images\/slide-sample-1.jpg",
+		"oF": 3,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 65
+		},
+	"\/src\/images\/slide-sample-2.jpg": {
+		"ft": 16384,
+		"iS": 157423,
+		"oA": 0,
+		"oAP": "\/test\/images\/slide-sample-2.jpg",
+		"oF": 3,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 65
+		},
+	"\/src\/images\/slide-sample-3.jpg": {
+		"ft": 16384,
+		"iS": 980670,
+		"oA": 0,
+		"oAP": "\/test\/images\/slide-sample-3.jpg",
+		"oF": 3,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 65
+		},
+	"\/src\/images\/slide-sample-4.jpg": {
+		"ft": 16384,
+		"iS": 25667,
+		"oA": 0,
+		"oAP": "\/test\/images\/slide-sample-4.jpg",
+		"oF": 3,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 65
+		},
+	"\/src\/images\/slide-sample-5.jpg": {
+		"ft": 16384,
+		"iS": 165545,
+		"oA": 0,
+		"oAP": "\/test\/images\/slide-sample-5.jpg",
+		"oF": 3,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 65
+		},
+	"\/src\/images\/slide-sample-6.jpg": {
+		"ft": 16384,
+		"iS": 569037,
+		"oA": 0,
+		"oAP": "\/test\/images\/slide-sample-6.jpg",
+		"oF": 3,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 65
+		},
 	"\/src\/images\/sponser-arphic.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -380,6 +440,15 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/src\/javascript\/class\/slideshow.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/test\/javascript\/class\/min\/slideshow-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/src\/javascript\/class\/util.js": {
 		"ft": 64,
 		"mi": 1,
@@ -405,6 +474,15 @@
 		"oAP": "\/test\/javascript\/polyfill\/min\/fetch-min.js",
 		"oF": 0,
 		"sC": 1,
+		"tS": 0
+		},
+	"\/src\/javascript\/view\/home.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/test\/javascript\/view\/min\/home-min.js",
+		"oF": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/src\/less\/_define.less": {
@@ -617,6 +695,12 @@
 			"linkedFileAbbreviatedPath": "\/src\/javascript\/class\/util.js",
 			"position": 4,
 			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/src\/javascript\/view\/home.js",
+			"position": 5,
+			"type": 0
 			}
 		],
 	"\/src\/javascript\/_libs.js": [
@@ -624,12 +708,6 @@
 			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "\/src\/javascript\/_vendor\/system.js",
 			"position": 0,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/src\/javascript\/_vendor\/doT.js",
-			"position": 1,
 			"type": 1
 			}
 		]
@@ -639,7 +717,7 @@
 	"displayValue": "TIB-Tenth",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 518724698
+	"lastBuiltDate": 518819938
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
