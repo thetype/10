@@ -1,8 +1,29 @@
 -
 	var _data = _dataHero || {
 		slideshow: [
-			
+			{
+				img: 'images/slide-sample-1.jpg'
+			}, {
+				img: 'images/slide-sample-2.jpg'
+			}, {
+				img: 'images/slide-sample-3.jpg'
+			}, {
+				img: 'images/slide-sample-4.jpg'
+			}, {
+				img: 'images/slide-sample-5.jpg'
+			}, {
+				img: 'images/slide-sample-6.jpg'
+			}
 		],
 	}
 
 .slideshow
+	nav.slideshow-nav
+		a.slideshow-pager.slideshow-pager--prev(href="javascript:void(0)")
+		a.slideshow-pager.slideshow-pager--next(href="javascript:void(0)")
+	ul.slideshow-list
+		each item in _data.slideshow
+			li.slideshow-item
+				figure.slideshow-slide
+					//- img.slideshow-img(src=`${assetsPath}${item.img}?v=${verTag}`)
+					.slideshow-img(style=`background-image: url("${assetsPath}${item.img}?v=${verTag}")`)

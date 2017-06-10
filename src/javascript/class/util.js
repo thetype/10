@@ -1,4 +1,4 @@
-NME.Util = class _NMUtil {
+TIB.Util = class _Util {
 	static delegate(event, targSelector, wrapSelector, callback) {
 		let $wrap = document.querySelector(wrapSelector);
 		
@@ -34,7 +34,7 @@ NME.Util = class _NMUtil {
 				query = query.slice(0, -1);
 			}
 			
-			url = NME.API_DOMAIN + url + query;
+			url = TIB.API_DOMAIN + url + query;
 			
 			if (url.match(/\?/)) {
 				url += `&callback=${name}`;

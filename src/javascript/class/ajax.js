@@ -1,4 +1,4 @@
-NME.Ajax = class _NMAjax {
+TIB.Ajax = class _Ajax {
 	static GET(URL, param) {
 		let query = '';
 		if (param) {
@@ -9,7 +9,7 @@ NME.Ajax = class _NMAjax {
 			query = query.slice(0, -1);
 		}
 		
-		let url = NME.API_DOMAIN + URL + query;
+		let url = TIB.API_DOMAIN + URL + query;
 		
 		return fetch(url, {
 			method: 'GET'
@@ -26,7 +26,7 @@ NME.Ajax = class _NMAjax {
 	}
 	
 	static POST(URL, param, credentials) {
-		let url = NME.API_DOMAIN + URL;
+		let url = TIB.API_DOMAIN + URL;
 		let bodyData = JSON.stringify(param);
 		
 		return fetch(url, {
@@ -47,7 +47,7 @@ NME.Ajax = class _NMAjax {
 	}
 	
 	static PUT(URL, param, credentials) {
-		let url = NME.API_DOMAIN + URL;
+		let url = TIB.API_DOMAIN + URL;
 		let bodyData = JSON.stringify(param);
 		
 		return fetch(url, {

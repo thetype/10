@@ -1,5 +1,5 @@
 // Polyfill
-import './polyfill/fetch.js';
+// import './polyfill/fetch.js';
 
 // Define
 import '_define.js';
@@ -8,7 +8,9 @@ import '_define.js';
 import '_misc.js';
 
 // Class
-import './class/ajax.js';
-import './class/util.js';
+// import './class/ajax.js';
+import './class/slideshow.js';
+// import './class/util.js';
 
 // View
+import './view/home.js';
