@@ -1,6 +1,18 @@
 CHANGELOG
 =========
 
+### Version [0.4.1] (2017-06-11)
+
+#### Testbench
+- <https://realfish.github.io/tib-tenth/?v0.4.1>
+
+#### Changed
+* Polish the shape of slideshow pagers.
+
+#### Fixed
+- Fix typos in change log.
+- Remove unused variables in JS.
+
 ### Version [0.4.0] (2017-06-11)
 
 #### Testbench
@@ -15,7 +27,7 @@ CHANGELOG
 * Remove unused modules for `app.js`.
 
 #### Known issues
-* The ratio of slideshow for mobile landscape screens.
+* The ratio of slideshow for mobile portrait screens.
 
 * * *
 
@@ -25,7 +37,7 @@ CHANGELOG
 - <https://realfish.github.io/tib-tenth/?v0.3.1>
 
 #### Fixed
-+ Fix the centering for `.souvenir-thumb` with micro-typography polishments.
+- Fix the centering for `.souvenir-thumb` with micro-typography polishments.
 
 ### Version [0.3.0] (2017-06-10)
 
@@ -56,7 +68,7 @@ CHANGELOG
 - <https://realfish.github.io/tib-tenth/?v0.2.1>
 
 #### Fixed
-+ Fix the `overflow: hidden` failure in Safari (Mac) for `$('.souvenir-thumb')`.
+- Fix the `overflow: hidden` failure in Safari (Mac) for `$('.souvenir-thumb')`.
 
 ### Version [0.2.0] (2017-06-09)
 
@@ -87,6 +99,7 @@ CHANGELOG
 
 
 
+[0.4.0]: https://github.com/realfish/tib-tenth/compare/v0.4.0...v0.4.1
 [0.4.0]: https://github.com/realfish/tib-tenth/compare/v0.3.1...v0.4.0
 [0.3.1]: https://github.com/realfish/tib-tenth/compare/v0.3.0...v0.3.1
 [0.3.0]: https://github.com/realfish/tib-tenth/compare/v0.2.2...v0.3.0

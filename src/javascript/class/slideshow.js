@@ -7,8 +7,8 @@ TIB.Slideshow = class _Slideshow {
 		this.$prev  = this.$el.querySelector(selector.prev);
 		this.$next  = this.$el.querySelector(selector.next);
 		this.index  = 0;
-		this.slideW = this.$list.children[0].offsetWidth;
-		this.slideH = this.$list.children[0].offsetHeight;
+		// this.slideW = this.$list.children[0].offsetWidth;
+		// this.slideH = this.$list.children[0].offsetHeight;
 		
 		this.startX = -1;
 		this.startY = -1;
@@ -165,7 +165,7 @@ TIB.Slideshow = class _Slideshow {
 		}
 	}
 	
-	_handleTouchEnd(e) {
+	_handleTouchEnd() {
 		this.$el.classList.remove('is-move');
 		
 		if (this.isMove) {
