@@ -165,7 +165,7 @@ TIB.Slideshow = class _Slideshow {
 		}
 	}
 	
-	_handleTouchEnd(e) {
+	_handleTouchEnd() {
 		this.$el.classList.remove('is-move');
 		
 		if (this.isMove) {
