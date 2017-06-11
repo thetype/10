@@ -665,44 +665,6 @@
 "hooks": [
 	],
 "manualImportLinks": {
-	"\/src\/javascript\/_app.js": [
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/src\/javascript\/polyfill\/fetch.js",
-			"position": 0,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/src\/javascript\/_define.js",
-			"position": 1,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/src\/javascript\/_misc.js",
-			"position": 2,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/src\/javascript\/class\/ajax.js",
-			"position": 3,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/src\/javascript\/class\/util.js",
-			"position": 4,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/src\/javascript\/view\/home.js",
-			"position": 5,
-			"type": 0
-			}
-		],
 	"\/src\/javascript\/_libs.js": [
 		{
 			"followForSyntaxChecking": 0,
@@ -717,7 +679,7 @@
 	"displayValue": "TIB-Tenth",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 518819938
+	"lastBuiltDate": 518841764
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
