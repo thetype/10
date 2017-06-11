@@ -15,7 +15,7 @@ CHANGELOG
 * Remove unused modules for `app.js`.
 
 #### Known issues
-* The ratio of slideshow for mobile landscape screens.
+* The ratio of slideshow for mobile portrait screens.
 
 * * *
 
@@ -25,7 +25,7 @@ CHANGELOG
 - <https://realfish.github.io/tib-tenth/?v0.3.1>
 
 #### Fixed
-+ Fix the centering for `.souvenir-thumb` with micro-typography polishments.
+- Fix the centering for `.souvenir-thumb` with micro-typography polishments.
 
 ### Version [0.3.0] (2017-06-10)
 
@@ -56,7 +56,7 @@ CHANGELOG
 - <https://realfish.github.io/tib-tenth/?v0.2.1>
 
 #### Fixed
-+ Fix the `overflow: hidden` failure in Safari (Mac) for `$('.souvenir-thumb')`.
+- Fix the `overflow: hidden` failure in Safari (Mac) for `$('.souvenir-thumb')`.
 
 ### Version [0.2.0] (2017-06-09)
 
