@@ -1,6 +1,18 @@
 CHANGELOG
 =========
 
+### Version [0.4.1] (2017-06-11)
+
+#### Testbench
+- <https://realfish.github.io/tib-tenth/?v0.4.1>
+
+#### Changed
+* Polish the shape of slideshow pagers.
+
+#### Fixed
+- Fix typos in change log.
+- Remove unused variables in JS.
+
 ### Version [0.4.0] (2017-06-11)
 
 #### Testbench
@@ -87,6 +99,7 @@ CHANGELOG
 
 
 
+[0.4.0]: https://github.com/realfish/tib-tenth/compare/v0.4.0...v0.4.1
 [0.4.0]: https://github.com/realfish/tib-tenth/compare/v0.3.1...v0.4.0
 [0.3.1]: https://github.com/realfish/tib-tenth/compare/v0.3.0...v0.3.1
 [0.3.0]: https://github.com/realfish/tib-tenth/compare/v0.2.2...v0.3.0
