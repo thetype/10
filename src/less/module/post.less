@@ -1,3 +1,7 @@
+.post {
+	font-feature-settings: "pnum", "kern", "liga", "fwid";
+}
+
 /*--- Headings ---*/
 .post-h1 {
 	width: (736em/28);
@@ -33,7 +37,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	font-size: (20em/16);
-	font-weight: 400;
+	font-weight: 500;
 	line-height: (30/20);
 	text-align: center;
 	hyphens: auto;
@@ -85,16 +89,52 @@
 		margin-right: (23em/16);
 	}
 }
+.post-body + .post-body {
+	margin-top: (48em/16);
+}
+.post-h4 {
+	font-size: 1em;
+	font-weight: 700;
+	line-height: (28/16);
+	margin-top: (28em/16);
+}
 .post-p {
+	font-family: @font-serif--safe;
 	font-size: 1em;
 	line-height: (28/16);
 	text-align: justify;
 	text-indent: 2em;
+	
 	&:first-child { text-indent: 0; }
 	
+	a {
+		/*padding-bottom: 1px;
+		border-bottom: 1px solid fadeout(@text-main, 50%);*/
+		
+		// Ref: https://medium.design/crafting-link-underlines-on-medium-7c03a9274f9
+		background-image: linear-gradient(to bottom, rgba(0,0,0,.45) 50%, rgba(0,0,0,0) 50%);
+		background-position: 0 104%;
+		background-size: 2px 2px;
+		background-repeat: repeat-x;
+		text-shadow:
+			 0px -1px 0 @bg-theme,
+			 0px  1px 0 @bg-theme,
+			-1px  1px 0 @bg-theme,
+			-2px -1px 0 @bg-theme,
+			 2px  1px 0 @bg-theme,
+			 1px  1px 0 @bg-theme,
+			-1px  0px 0 @bg-theme;
+		&::selection { text-shadow: none; }
+		
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+		.color-transition();
+		.ua-Pointer &:hover, &:active { opacity: .5; }
+	}
+	
 	@media (max-width: 959px) {
-		margin-top: (16em/16);
+		margin-top: (8em/16);
 		text-indent: 1em;
+		// .post-h4 + & { margin-top: 0; }
 	}
 }
 /*--- Body text END ---*/
@@ -173,6 +213,7 @@
 	box-sizing: border-box;
 	background-color: fadeout(@bg-theme, 2%);
 	font-family: @font-sans;
+	font-weight: 400;
 	font-size: (14em/16);
 	line-height: (22/14);
 	opacity: 0;
