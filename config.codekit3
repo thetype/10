@@ -163,11 +163,11 @@
 	"\/src\/images\/image-sample.jpg": {
 		"ft": 16384,
 		"iS": 607957,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/test\/images\/image-sample.jpg",
 		"oF": 1,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/src\/images\/slide-sample-1.jpg": {
@@ -229,6 +229,36 @@
 		"oIPL": 1,
 		"opt": 1,
 		"q": 65
+		},
+	"\/src\/images\/souvenir-2.jpg": {
+		"ft": 16384,
+		"iS": 183395,
+		"oA": 2,
+		"oAP": "\/test\/images\/souvenir-2.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/souvenir-3.jpg": {
+		"ft": 16384,
+		"iS": 199187,
+		"oA": 2,
+		"oAP": "\/test\/images\/souvenir-3.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/souvenir-4.jpg": {
+		"ft": 16384,
+		"iS": 28697,
+		"oA": 2,
+		"oAP": "\/test\/images\/souvenir-4.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/src\/images\/sponser-arphic.svg": {
 		"ft": 2097152,
@@ -293,6 +323,30 @@
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/test\/jade\/_template.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/src\/jade\/index\/data\/body.pug": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/test\/jade\/index\/data\/body.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/src\/jade\/index\/data\/footer.pug": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/test\/jade\/index\/data\/footer.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/src\/jade\/index\/data\/header.pug": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/test\/jade\/index\/data\/header.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -679,7 +733,7 @@
 	"displayValue": "TIB-Tenth",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 518841764
+	"lastBuiltDate": 519071114
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
