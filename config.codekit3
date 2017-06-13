@@ -21,23 +21,11 @@
 		"oAP": "\/test\/.travis.yml",
 		"oF": 1
 		},
-	"\/_copy\/[20170608]10.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
+	"\/_copy": {
+		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/test\/_copy\/[20170608]10.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
+		"oAP": "\/test\/_copy",
+		"oF": 0
 		},
 	"\/_design": {
 		"ft": 65536,
@@ -230,12 +218,22 @@
 		"opt": 1,
 		"q": 65
 		},
+	"\/src\/images\/souvenir-1.jpg": {
+		"ft": 16384,
+		"iS": 27485,
+		"oA": 0,
+		"oAP": "\/test\/images\/souvenir-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/src\/images\/souvenir-2.jpg": {
 		"ft": 16384,
 		"iS": 183395,
 		"oA": 2,
 		"oAP": "\/test\/images\/souvenir-2.jpg",
-		"oF": 1,
+		"oF": 3,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -258,6 +256,26 @@
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/souvenir-5.jpg": {
+		"ft": 16384,
+		"iS": 104100,
+		"oA": 0,
+		"oAP": "\/test\/images\/souvenir-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/images\/souvenir-6.jpg": {
+		"ft": 16384,
+		"iS": 27163,
+		"oA": 0,
+		"oAP": "\/test\/images\/souvenir-6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/src\/images\/sponser-arphic.svg": {
@@ -733,7 +751,7 @@
 	"displayValue": "TIB-Tenth",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 519071140
+	"lastBuiltDate": 519071303
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2670,7 +2688,7 @@
 	"languageDefaultsUserDefined": [
 		],
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/test, \/_design",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/test, \/_design, \/_copy",
 	"sourceFolderName": "src",
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
