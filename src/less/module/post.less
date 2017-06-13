@@ -15,19 +15,21 @@
 	@media (max-width: 1279px) {
 		width: (640em/28);
 	}
-	
 	@media (max-width: 719px) {
 		width: auto;
-		margin-left: (48em/28);
-		margin-right: (48em/28);
+		margin-left: (72em/28);
+		margin-right: (72em/28);
 	}
-	
 	@media (max-width: 639px) {
 		margin-top: (64em/24);
-		margin-left: (48em/24);
-		margin-right: (48em/24);
+		margin-left: (64em/24);
+		margin-right: (64em/24);
 		font-size: (24em/16);
 		line-height: (36/24);
+	}
+	@media (max-width: 361px) {
+		margin-left: (48em/24);
+		margin-right: (48em/24);
 	}
 }
 .post-h3 {
@@ -45,13 +47,11 @@
 	@media (max-width: 1279px) {
 		width: (640em/20);
 	}
-	
 	@media (max-width: 719px) {
 		width: auto;
-		margin-left: (48em/20);
-		margin-right: (48em/20);
+		margin-left: (72em/20);
+		margin-right: (72em/20);
 	}
-	
 	@media (max-width: 639px) {
 		margin-top: (18em/18);
 		margin-bottom: (32em/18);
@@ -59,6 +59,10 @@
 		margin-right: (48em/18);
 		font-size: (18em/16);
 		line-height: (28/18);
+	}
+	@media (max-width: 361px) {
+		margin-left: (32em/18);
+		margin-right: (32em/18);
 	}
 }
 /*--- Headings END ---*/
@@ -76,13 +80,11 @@
 		width: ((800em + 4)/16);
 		column-count: 2;
 	}
-	
 	@media (max-width: 959px) {
 		width: ((672em + 4)/16);
 		column-width: auto;
 		column-count: auto;
 	}
-	
 	@media (max-width: 719px) {
 		width: auto;
 		margin-left: (23em/16);
@@ -108,33 +110,29 @@
 	&:first-child { text-indent: 0; }
 	
 	a {
-		/*padding-bottom: 1px;
-		border-bottom: 1px solid fadeout(@text-main, 50%);*/
-		
 		// Ref: https://medium.design/crafting-link-underlines-on-medium-7c03a9274f9
 		background-image: linear-gradient(to bottom, rgba(0,0,0,.45) 50%, rgba(0,0,0,0) 50%);
 		background-position: 0 104%;
 		background-size: 2px 2px;
 		background-repeat: repeat-x;
 		text-shadow:
+			-2px -1px 0 @bg-theme,
+			-1px  0px 0 @bg-theme,
+			-1px  1px 0 @bg-theme,
 			 0px -1px 0 @bg-theme,
 			 0px  1px 0 @bg-theme,
-			-1px  1px 0 @bg-theme,
-			-2px -1px 0 @bg-theme,
-			 2px  1px 0 @bg-theme,
 			 1px  1px 0 @bg-theme,
-			-1px  0px 0 @bg-theme;
+			 2px  1px 0 @bg-theme;
 		&::selection { text-shadow: none; }
 		
 		-webkit-tap-highlight-color: rgba(0,0,0,0);
-		.color-transition();
+		transition: opacity 0.25s ease-in-out;
 		.ua-Pointer &:hover, &:active { opacity: .5; }
 	}
 	
 	@media (max-width: 959px) {
 		margin-top: (8em/16);
 		text-indent: 1em;
-		// .post-h4 + & { margin-top: 0; }
 	}
 }
 /*--- Body text END ---*/
@@ -177,14 +175,12 @@
 		margin-left: (4em/16);
 		&:first-child { margin-left: 0; }
 	}
-	
 	@media (max-width: 959px) {
 		flex-basis: 40%;
 		flex-grow: 1;
 		margin: (2em/16);
 		&:first-child { margin: (2em/16); }
 	}
-	
 	@media (max-width: 639px) {
 		border-width: (2em/16);
 	}
