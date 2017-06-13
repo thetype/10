@@ -1,6 +1,24 @@
 CHANGELOG
 =========
 
+### Version [0.5.0] (2017-06-14)
+
+#### Testbench
+- <https://realfish.github.io/tib-tenth/?v0.5.0>
+
+#### Added
++ Official copy (proof needed).
++ Souvenir image assets.
++ Hyperlink style (the Medium-flavour underline) for body text.
++ Heading 4 style for body text.
++ A "safe" webfont set `@font-serif--safe` as a work-around to the Adobe Caslon Pro webfont's line-height issue.
+
+#### Changed
+* Decouple data and template, and modularize data.
+* Twist font weight setting.
+
+* * *
+
 ### Version [0.4.1] (2017-06-11)
 
 #### Testbench
@@ -99,6 +117,7 @@ CHANGELOG
 
 
 
+[0.5.0]: https://github.com/realfish/tib-tenth/compare/v0.4.1...v0.5.0
 [0.4.1]: https://github.com/realfish/tib-tenth/compare/v0.4.0...v0.4.1
 [0.4.0]: https://github.com/realfish/tib-tenth/compare/v0.3.1...v0.4.0
 [0.3.1]: https://github.com/realfish/tib-tenth/compare/v0.3.0...v0.3.1

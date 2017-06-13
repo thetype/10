@@ -21,23 +21,11 @@
 		"oAP": "\/test\/.travis.yml",
 		"oF": 1
 		},
-	"\/_copy\/[20170608]10.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
+	"\/_copy": {
+		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/test\/_copy\/[20170608]10.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
+		"oAP": "\/test\/_copy",
+		"oF": 0
 		},
 	"\/_design": {
 		"ft": 65536,
@@ -163,11 +151,11 @@
 	"\/src\/images\/image-sample.jpg": {
 		"ft": 16384,
 		"iS": 607957,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/test\/images\/image-sample.jpg",
 		"oF": 1,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/src\/images\/slide-sample-1.jpg": {
@@ -229,6 +217,66 @@
 		"oIPL": 1,
 		"opt": 1,
 		"q": 65
+		},
+	"\/src\/images\/souvenir-1.jpg": {
+		"ft": 16384,
+		"iS": 27485,
+		"oA": 0,
+		"oAP": "\/test\/images\/souvenir-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/images\/souvenir-2.jpg": {
+		"ft": 16384,
+		"iS": 183395,
+		"oA": 2,
+		"oAP": "\/test\/images\/souvenir-2.jpg",
+		"oF": 3,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/souvenir-3.jpg": {
+		"ft": 16384,
+		"iS": 199187,
+		"oA": 2,
+		"oAP": "\/test\/images\/souvenir-3.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/souvenir-4.jpg": {
+		"ft": 16384,
+		"iS": 28697,
+		"oA": 2,
+		"oAP": "\/test\/images\/souvenir-4.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/souvenir-5.jpg": {
+		"ft": 16384,
+		"iS": 104100,
+		"oA": 0,
+		"oAP": "\/test\/images\/souvenir-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/images\/souvenir-6.jpg": {
+		"ft": 16384,
+		"iS": 27163,
+		"oA": 0,
+		"oAP": "\/test\/images\/souvenir-6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/src\/images\/sponser-arphic.svg": {
 		"ft": 2097152,
@@ -293,6 +341,30 @@
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/test\/jade\/_template.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/src\/jade\/index\/data\/body.pug": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/test\/jade\/index\/data\/body.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/src\/jade\/index\/data\/footer.pug": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/test\/jade\/index\/data\/footer.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/src\/jade\/index\/data\/header.pug": {
+		"cOD": 0,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/test\/jade\/index\/data\/header.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -679,7 +751,7 @@
 	"displayValue": "TIB-Tenth",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 518841764
+	"lastBuiltDate": 519071334
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2616,7 +2688,7 @@
 	"languageDefaultsUserDefined": [
 		],
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/test, \/_design",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/test, \/_design, \/_copy",
 	"sourceFolderName": "src",
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
