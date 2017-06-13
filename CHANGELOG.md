@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+### Version [0.5.2] (2017-06-14)
+
+#### Fixed
+* Remove font-weight adjustment for Android, since webfont are installed.
+* Refine typography for mobile screens to reduce widows.
+
 ### Version [0.5.1] (2017-06-14)
 
 #### Fixed
@@ -122,6 +128,7 @@ CHANGELOG
 
 
 
+[0.5.2]: https://github.com/realfish/tib-tenth/compare/v0.5.1...v0.5.2
 [0.5.1]: https://github.com/realfish/tib-tenth/compare/v0.5.0...v0.5.1
 [0.5.0]: https://github.com/realfish/tib-tenth/compare/v0.4.1...v0.5.0
 [0.4.1]: https://github.com/realfish/tib-tenth/compare/v0.4.0...v0.4.1
