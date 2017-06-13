@@ -11,7 +11,7 @@
 
 /*--- Class ---*/
 // @	codekit-prepend "class/ajax.js";
-// @	codekit-prepend "class/slideshow.js";
+// @codekit-prepend "class/slideshow.js";
 // @codekit-prepend "class/util.js";
 
 
