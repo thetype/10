@@ -57,6 +57,12 @@
 		"oAP": "\/test\/Rakefile",
 		"oF": 1
 		},
+	"\/README": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/test\/README",
+		"oF": 1
+		},
 	"\/src\/assets\/apple-touch-icon-120.png": {
 		"ft": 32768,
 		"iS": 0,
@@ -751,7 +757,7 @@
 	"displayValue": "TIB-Tenth",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 519082268
+	"lastBuiltDate": 519131478
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
