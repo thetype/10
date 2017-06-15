@@ -1,6 +1,22 @@
 CHANGELOG
 =========
 
+### Version [1.0.0] (2017-06-16)
+
+#### Testbench
+- <https://thetype.github.io/10/?v1.0.0>
+
+#### Added
++ Add an interaction hint for the slideshow.
+
+#### Changed
+* Remove duplicated slides.
+* Remove testing assets.
+* Change slide’s tag from `<div>` (with CSS `background-image`) to `<img>`.
+* Revise README.
+
+* * *
+
 ### Version [0.7.1] (2017-06-16)
 
 #### Testbench
@@ -191,6 +207,8 @@ CHANGELOG
 
 
 
+[1.0.0]: https://github.com/thetype/10/compare/v0.7.1...v1.0.0
+[0.7.1]: https://github.com/thetype/10/compare/v0.7.0...v0.7.1
 [0.7.0]: https://github.com/thetype/10/compare/v0.6.2...v0.7.0
 [0.6.2]: https://github.com/thetype/10/compare/v0.6.1...v0.6.2
 [0.6.1]: https://github.com/thetype/10/compare/v0.6.0...v0.6.1

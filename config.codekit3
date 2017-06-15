@@ -314,16 +314,6 @@
 		"opt": 1,
 		"q": 75
 		},
-	"\/src\/images\/image-sample.jpg": {
-		"ft": 16384,
-		"iS": 607957,
-		"oA": 0,
-		"oAP": "\/test\/images\/image-sample.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"\/src\/images\/slide-1.jpg": {
 		"ft": 16384,
 		"iS": 348374,
@@ -443,66 +433,6 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 60
-		},
-	"\/src\/images\/slide-sample-1.jpg": {
-		"ft": 16384,
-		"iS": 184198,
-		"oA": 0,
-		"oAP": "\/test\/images\/slide-sample-1.jpg",
-		"oF": 3,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 65
-		},
-	"\/src\/images\/slide-sample-2.jpg": {
-		"ft": 16384,
-		"iS": 157423,
-		"oA": 0,
-		"oAP": "\/test\/images\/slide-sample-2.jpg",
-		"oF": 3,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 65
-		},
-	"\/src\/images\/slide-sample-3.jpg": {
-		"ft": 16384,
-		"iS": 980670,
-		"oA": 0,
-		"oAP": "\/test\/images\/slide-sample-3.jpg",
-		"oF": 3,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 65
-		},
-	"\/src\/images\/slide-sample-4.jpg": {
-		"ft": 16384,
-		"iS": 25667,
-		"oA": 0,
-		"oAP": "\/test\/images\/slide-sample-4.jpg",
-		"oF": 3,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 65
-		},
-	"\/src\/images\/slide-sample-5.jpg": {
-		"ft": 16384,
-		"iS": 165545,
-		"oA": 0,
-		"oAP": "\/test\/images\/slide-sample-5.jpg",
-		"oF": 3,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 65
-		},
-	"\/src\/images\/slide-sample-6.jpg": {
-		"ft": 16384,
-		"iS": 569037,
-		"oA": 0,
-		"oAP": "\/test\/images\/slide-sample-6.jpg",
-		"oF": 3,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 65
 		},
 	"\/src\/images\/souvenir-1.jpg": {
 		"ft": 16384,
@@ -1182,7 +1112,7 @@
 	"displayValue": "TIB-Tenth",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 519240050
+	"lastBuiltDate": 519251315
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
