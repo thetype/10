@@ -234,6 +234,86 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/src\/images\/gallery-update-1-1.jpg": {
+		"ft": 16384,
+		"iS": 141631,
+		"oA": 0,
+		"oAP": "\/test\/images\/gallery-update-1-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 60
+		},
+	"\/src\/images\/gallery-update-1-2.jpg": {
+		"ft": 16384,
+		"iS": 818320,
+		"oA": 0,
+		"oAP": "\/test\/images\/gallery-update-1-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 35
+		},
+	"\/src\/images\/gallery-update-1-3.jpg": {
+		"ft": 16384,
+		"iS": 110944,
+		"oA": 0,
+		"oAP": "\/test\/images\/gallery-update-1-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 75
+		},
+	"\/src\/images\/gallery-update-1-4.jpg": {
+		"ft": 16384,
+		"iS": 84878,
+		"oA": 0,
+		"oAP": "\/test\/images\/gallery-update-1-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 75
+		},
+	"\/src\/images\/gallery-update-2-1.jpg": {
+		"ft": 16384,
+		"iS": 76338,
+		"oA": 0,
+		"oAP": "\/test\/images\/gallery-update-2-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 75
+		},
+	"\/src\/images\/gallery-update-2-2.jpg": {
+		"ft": 16384,
+		"iS": 174234,
+		"oA": 0,
+		"oAP": "\/test\/images\/gallery-update-2-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 75
+		},
+	"\/src\/images\/gallery-update-2-3.jpg": {
+		"ft": 16384,
+		"iS": 149932,
+		"oA": 0,
+		"oAP": "\/test\/images\/gallery-update-2-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 75
+		},
+	"\/src\/images\/gallery-update-2-4.jpg": {
+		"ft": 16384,
+		"iS": 207254,
+		"oA": 0,
+		"oAP": "\/test\/images\/gallery-update-2-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 75
+		},
 	"\/src\/images\/image-sample.jpg": {
 		"ft": 16384,
 		"iS": 607957,
@@ -243,6 +323,126 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"\/src\/images\/slide-1.jpg": {
+		"ft": 16384,
+		"iS": 348374,
+		"oA": 0,
+		"oAP": "\/test\/images\/slide-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 75
+		},
+	"\/src\/images\/slide-10.jpg": {
+		"ft": 16384,
+		"iS": 741685,
+		"oA": 0,
+		"oAP": "\/test\/images\/slide-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 60
+		},
+	"\/src\/images\/slide-11.jpg": {
+		"ft": 16384,
+		"iS": 358090,
+		"oA": 0,
+		"oAP": "\/test\/images\/slide-11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 60
+		},
+	"\/src\/images\/slide-12.jpg": {
+		"ft": 16384,
+		"iS": 480381,
+		"oA": 0,
+		"oAP": "\/test\/images\/slide-12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 60
+		},
+	"\/src\/images\/slide-2.jpg": {
+		"ft": 16384,
+		"iS": 782151,
+		"oA": 0,
+		"oAP": "\/test\/images\/slide-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 60
+		},
+	"\/src\/images\/slide-3.jpg": {
+		"ft": 16384,
+		"iS": 657551,
+		"oA": 0,
+		"oAP": "\/test\/images\/slide-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 60
+		},
+	"\/src\/images\/slide-4.jpg": {
+		"ft": 16384,
+		"iS": 598821,
+		"oA": 0,
+		"oAP": "\/test\/images\/slide-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 60
+		},
+	"\/src\/images\/slide-5.jpg": {
+		"ft": 16384,
+		"iS": 738833,
+		"oA": 0,
+		"oAP": "\/test\/images\/slide-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 60
+		},
+	"\/src\/images\/slide-6.jpg": {
+		"ft": 16384,
+		"iS": 739827,
+		"oA": 0,
+		"oAP": "\/test\/images\/slide-6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 60
+		},
+	"\/src\/images\/slide-7.jpg": {
+		"ft": 16384,
+		"iS": 793358,
+		"oA": 0,
+		"oAP": "\/test\/images\/slide-7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 60
+		},
+	"\/src\/images\/slide-8.jpg": {
+		"ft": 16384,
+		"iS": 741768,
+		"oA": 0,
+		"oAP": "\/test\/images\/slide-8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 60
+		},
+	"\/src\/images\/slide-9.jpg": {
+		"ft": 16384,
+		"iS": 625448,
+		"oA": 0,
+		"oAP": "\/test\/images\/slide-9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 60
 		},
 	"\/src\/images\/slide-sample-1.jpg": {
 		"ft": 16384,
@@ -362,6 +562,66 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/src\/images\/souvenir-new-1.jpg": {
+		"ft": 16384,
+		"iS": 27124,
+		"oA": 2,
+		"oAP": "\/test\/images\/souvenir-new-1.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/souvenir-new-2.jpg": {
+		"ft": 16384,
+		"iS": 64866,
+		"oA": 2,
+		"oAP": "\/test\/images\/souvenir-new-2.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/souvenir-new-3.jpg": {
+		"ft": 16384,
+		"iS": 78948,
+		"oA": 2,
+		"oAP": "\/test\/images\/souvenir-new-3.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/souvenir-new-4.jpg": {
+		"ft": 16384,
+		"iS": 35230,
+		"oA": 2,
+		"oAP": "\/test\/images\/souvenir-new-4.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/souvenir-new-5.jpg": {
+		"ft": 16384,
+		"iS": 69012,
+		"oA": 2,
+		"oAP": "\/test\/images\/souvenir-new-5.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/souvenir-new-6.jpg": {
+		"ft": 16384,
+		"iS": 25836,
+		"oA": 2,
+		"oAP": "\/test\/images\/souvenir-new-6.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/src\/images\/sponser-arphic.svg": {
@@ -711,6 +971,23 @@
 		"sM": 1,
 		"sU": 1
 		},
+	"\/src\/less\/module\/brand-new.less": {
+		"aP": 1,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/test\/less\/test\/assets\/brand-new.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
 	"\/src\/less\/module\/brand.less": {
 		"aP": 1,
 		"bl": 0,
@@ -721,6 +998,23 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/test\/less\/test\/assets\/brand.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/src\/less\/module\/post-new.less": {
+		"aP": 1,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/test\/less\/test\/assets\/post-new.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -745,6 +1039,23 @@
 		"sM": 1,
 		"sU": 1
 		},
+	"\/src\/less\/module\/slideshow-new.less": {
+		"aP": 1,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/test\/less\/test\/assets\/slideshow-new.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
 	"\/src\/less\/module\/slideshow.less": {
 		"aP": 1,
 		"bl": 0,
@@ -762,6 +1073,23 @@
 		"sM": 1,
 		"sU": 1
 		},
+	"\/src\/less\/module\/souvenir-new.less": {
+		"aP": 1,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/test\/less\/test\/assets\/souvenir-new.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
 	"\/src\/less\/module\/souvenir.less": {
 		"aP": 1,
 		"bl": 0,
@@ -772,6 +1100,23 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/test\/less\/test\/assets\/souvenir.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/src\/less\/template\/home-new.less": {
+		"aP": 1,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/test\/less\/test\/assets\/home-new.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -837,7 +1182,7 @@
 	"displayValue": "TIB-Tenth",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 519162523
+	"lastBuiltDate": 519239143
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
