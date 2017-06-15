@@ -1,0 +1,120 @@
+/*--- Brand header ---*/
+.brand-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.brand-tib {
+	flex-shrink: 0;
+	width: (160em/16);
+	height: (42em/16);
+	overflow: hidden;
+	user-select: none;
+	
+	@media (min-width: 960px) {
+		font-size: 20px;
+	}
+	
+	@media (max-width: 639px) {
+		order: 2;
+		font-size: (10px);
+	}
+}
+.brand-tib-logotype {
+	display: block;
+	height: (25em/16);
+	padding-top: (1em/16);
+	padding-left: (1em/16);
+}
+.brand-tib-slogan {
+	@brand-tib-slogan-tracking: (8em/10);
+	
+	padding-top: (6em/10);
+	padding-left: (3em/10);
+	margin-left: (-@brand-tib-slogan-tracking);
+	margin-right: (-@brand-tib-slogan-tracking);
+	font-size: (10em/16);
+	font-weight: 700;
+	letter-spacing: @brand-tib-slogan-tracking;
+	text-indent: @brand-tib-slogan-tracking;
+	white-space: nowrap;
+	
+	.ua-Safari & {
+		@media (min-width: 960px) {
+			letter-spacing: (775em/1000);
+			text-indent: (775em/1000);
+		}
+		
+		@media (max-width: 639px) {
+			letter-spacing: (800em/1000);
+			text-indent: (900em/1000);
+		}
+	}
+}
+
+.brand-tib10 {
+	display: flex;
+	flex-shrink: 0;
+	height: (42em/16);
+	user-select: none;
+	
+	@media (min-width: 960px) {
+		font-size: 20px;
+	}
+	
+	@media (max-width: 639px) {
+		order: 1;
+	}
+	@media (max-width: 359px) {
+		font-size: (14px);
+	}
+}
+.brand-tib10-icon {
+	display: flex;
+	order: 1;
+	height: (40em/16);
+	padding-top: (1em/16);
+	padding-right: (16em/16);
+	
+	&::before {
+		content: "";
+		display: block;
+		width: (1em/16);
+		height: (40em/16);
+		margin-right: (7em/16);
+		background-color: @bg-black;
+	}
+	
+	&::after {
+		content: "";
+		display: block;
+		width: (40em/16);
+		height: (40em/16);
+		border-radius: 100%;
+		border: (1em/16) solid @bg-black;
+		box-sizing: border-box;
+	}
+}
+.brand-tib10-text {
+	order: 2;
+	height: (40em/16);
+	padding-top: (2em/16);
+	font-weight: 600;
+	line-height: (20/16);
+}
+/*--- Brand header END ---*/
+
+/*--- Brand footer ---*/
+.brand-footer {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+.brand-copyright {
+	margin-bottom: (8em/16);
+}
+.brand-desc {
+	font-size: (12em/16);
+	line-height: (14/12);
+}
+/*--- Brand footer END ---*/

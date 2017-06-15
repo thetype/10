@@ -2,7 +2,11 @@
 	var _data = dataFooter
 
 footer.home-footer
-	.brand-footer
-		h5.brand-copyright
+	a(href="https://www.typeisbeautiful.com/")
+		.brand-footer
+			.brand-tib
+				img.brand-tib-logotype(src=`${assetsPath}${_data.tib.logotype}?v=${verTag}`)
+				p.brand-tib-slogan= _data.tib.slogan
+		//- h5.brand-copyright
 			a(href="https://www.typeisbeautiful.com/")= _data.copyright
-		p.brand-desc= _data.desc
+		//- p.brand-desc= _data.desc
