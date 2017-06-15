@@ -39,16 +39,42 @@
 }
 
 .home-footer {
-	padding-top: (160em/16);
+	padding-top: (80em/16);
 	padding-bottom: (96em/16);
 	
 	@media (max-width: 959px) {
-		padding-top: (96em/16);
-		padding-bottom: (64em/16);
+		padding-top: (64em/16);
+		padding-bottom: (80em/16);
 	}
 	
 	.brand-footer {
 		width: (352em/16);
+		
+		.brand-tib {
+			margin: 0 auto !important;
+			font-size: 16px !important;
+			
+			.brand-tib-slogan {
+				letter-spacing: (800em/1000) !important;
+				text-indent: (800em/1000) !important;
+				
+				.ua-Safari & {
+					letter-spacing: (800em/1000) !important;
+					text-indent: (700em/1000) !important;
+				}
+			}
+			
+			@media (max-width: 639px) {
+				font-size: 12px !important;
+				
+				.brand-tib-slogan {
+					.ua-Safari & {
+						letter-spacing: (700em/1000) !important;
+						text-indent: (720em/1000) !important;
+					}
+				}
+			}
+		}
 		
 		@media (max-width: 479px) {
 			width: auto;
