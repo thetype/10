@@ -240,8 +240,10 @@ TIB.Slideshow = class _Slideshow {
 	}
 	
 	_endSlide() {
-		this.$list.style.transition = 'transform .75s ease';
-		this.$list.style.transform  = 'translate3d(0,0,0)';
+		this.$list.style.webkitTransition = '-webkit-transform .45s ease';
+		this.$list.style.webkitTransform  = 'translate3d(0,0,0)';
+		this.$list.style.transition       = 'transform .45s ease';
+		this.$list.style.transform        = 'translate3d(0,0,0)';
 		
 		if (Math.abs(this.distX) >= 60) {
 			if (this.distX < 0) {

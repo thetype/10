@@ -1,6 +1,14 @@
 CHANGELOG
 =========
 
+### Version [0.7.1] (2017-06-16)
+
+#### Testbench
+- <https://thetype.github.io/10/?v0.7.1>
+
+#### Fixed
+- Slideshow transition duration mismatching on touch devices.
+
 ### Version [0.7.0] (2017-06-16)
 
 #### Testbench
