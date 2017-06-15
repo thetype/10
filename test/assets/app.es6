@@ -101,6 +101,26 @@ TIB.Slideshow = class _Slideshow {
 		this._listenTouchEvent();
 	}
 	
+	_initHint() {
+		const DELAY = 2500;
+		let listStyle = this.$list.style;
+		setTimeout(function() {
+			listStyle.webkitTransition = '-webkit-transform .25s ease';
+			listStyle.webkitTransform  = 'translate3d(-32px,0,0)';
+			listStyle.transition       = 'transform .25s ease';
+			listStyle.transform        = 'translate3d(-32px,0,0)';
+		}, DELAY);
+		setTimeout(function() {
+			listStyle.webkitTransition = '-webkit-transform .25s ease';
+			listStyle.webkitTransform  = 'translate3d(0,0,0)';
+			listStyle.transition       = 'transform .25s ease';
+			listStyle.transform        = 'translate3d(0,0,0)';
+		}, DELAY + 300);
+		setTimeout(function() {
+			listStyle = '';
+		}, DELAY + 600);
+	}
+	
 	
 	
 	/**
@@ -109,8 +129,15 @@ TIB.Slideshow = class _Slideshow {
 	 */
 	
 	_listenPagerClick() {
-		this.$prev.addEventListener('click', this._navPrev.bind(this));
-		this.$next.addEventListener('click', this._navNext.bind(this));
+		let self = this;
+		this.$prev.addEventListener('click', function() {
+			// clearInterval(self.autoPlay);
+			self._navPrev();
+		});
+		this.$next.addEventListener('click', function() {
+			// clearInterval(self.autoPlay);
+			self._navNext();
+		});
 	}
 	_listenTouchEvent() {
 		this.$el.addEventListener('touchstart',  this._handleTouchStart.bind(this));
@@ -195,7 +222,8 @@ TIB.Slideshow = class _Slideshow {
 	
 	_handleTouchStart(e) {
 		this.$el.classList.add('is-move');
-		this.$list.style.transition = 'none';
+		this.$list.style.webkitTransition = 'none';
+		this.$list.style.transition       = 'none';
 		
 		this.lastX  = this.startX = e.touches[0].clientX;
 		this.lastY  = this.startY = e.touches[0].clientY;
@@ -228,22 +256,27 @@ TIB.Slideshow = class _Slideshow {
 	_moveSlide(e) {
 		if (this.isScroll) { return; }
 		
+		let listStyle = this.$list.style;
 		if (this.isSlide) {
-			this.$list.style.transform = 'translate3d(' + this.distX + 'px,0,0)';
+			listStyle.webkitTransform = 'translate3d(' + this.distX + 'px,0,0)';
+			listStyle.transform       = 'translate3d(' + this.distX + 'px,0,0)';
 		} else if (Math.abs(this.distY) < Math.abs(this.distX)) {
 			e.preventDefault();
-			this.$list.style.transform = 'translate3d(' + this.distX + 'px,0,0)';
+			listStyle.webkitTransform = 'translate3d(' + this.distX + 'px,0,0)';
+			listStyle.transform       = 'translate3d(' + this.distX + 'px,0,0)';
 			this.isSlide = true;
+			// clearInterval(this.autoPlay);
 		} else {
 			this.isScroll = true;
 		}
 	}
 	
 	_endSlide() {
-		this.$list.style.webkitTransition = '-webkit-transform .45s ease';
-		this.$list.style.webkitTransform  = 'translate3d(0,0,0)';
-		this.$list.style.transition       = 'transform .45s ease';
-		this.$list.style.transform        = 'translate3d(0,0,0)';
+		let listStyle = this.$list.style;
+		listStyle.webkitTransition = '-webkit-transform .45s ease';
+		listStyle.webkitTransform  = 'translate3d(0,0,0)';
+		listStyle.transition       = 'transform .45s ease';
+		listStyle.transform        = 'translate3d(0,0,0)';
 		
 		if (Math.abs(this.distX) >= 60) {
 			if (this.distX < 0) {
@@ -270,6 +303,7 @@ TIB.Slideshow = class _Slideshow {
 		} else {
 			this._initTouch();
 		}
+		this._initHint();
 	}
 };
 
