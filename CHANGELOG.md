@@ -1,6 +1,23 @@
 CHANGELOG
 =========
 
+### Version [0.7.0] (2017-06-16)
+
+#### Testbench
+- <https://thetype.github.io/10/?v0.7.0>
+
+#### Added
++ New image assets for the slideshow, two sets of gallery, and souvenirs.
+
+#### Changed
+* Increase logos' size for desktop (wider than 640px).
+* Twist slideshow's transition duration and pager size.
+* Remove gallery and souvenir's frame styles.
+* Update sourvenir's reponsive layout logic.
+* Change page footer into TIB logo and slogan.
+
+* * *
+
 ### Version [0.6.2] (2017-06-15)
 
 #### Testbench
@@ -166,6 +183,7 @@ CHANGELOG
 
 
 
+[0.7.0]: https://github.com/thetype/10/compare/v0.6.2...v0.7.0
 [0.6.2]: https://github.com/thetype/10/compare/v0.6.1...v0.6.2
 [0.6.1]: https://github.com/thetype/10/compare/v0.6.0...v0.6.1
 [0.6.0]: https://github.com/thetype/10/compare/v0.5.2...v0.6.0
