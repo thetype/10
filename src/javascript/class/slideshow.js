@@ -50,22 +50,22 @@ TIB.Slideshow = class _Slideshow {
 	}
 	
 	_initHint() {
-		let self = this;
 		const DELAY = 2500;
+		let listStyle = this.$list.style;
 		setTimeout(function() {
-			self.$list.style.webkitTransition = '-webkit-transform .25s ease';
-			self.$list.style.webkitTransform  = 'translate3d(-32px,0,0)';
-			self.$list.style.transition       = 'transform .25s ease';
-			self.$list.style.transform        = 'translate3d(-32px,0,0)';
+			listStyle.webkitTransition = '-webkit-transform .25s ease';
+			listStyle.webkitTransform  = 'translate3d(-32px,0,0)';
+			listStyle.transition       = 'transform .25s ease';
+			listStyle.transform        = 'translate3d(-32px,0,0)';
 		}, DELAY);
 		setTimeout(function() {
-			self.$list.style.webkitTransition = '-webkit-transform .25s ease';
-			self.$list.style.webkitTransform  = 'translate3d(0,0,0)';
-			self.$list.style.transition       = 'transform .25s ease';
-			self.$list.style.transform        = 'translate3d(0,0,0)';
+			listStyle.webkitTransition = '-webkit-transform .25s ease';
+			listStyle.webkitTransform  = 'translate3d(0,0,0)';
+			listStyle.transition       = 'transform .25s ease';
+			listStyle.transform        = 'translate3d(0,0,0)';
 		}, DELAY + 300);
 		setTimeout(function() {
-			self.$list.style = '';
+			listStyle = '';
 		}, DELAY + 600);
 	}
 	
@@ -204,13 +204,14 @@ TIB.Slideshow = class _Slideshow {
 	_moveSlide(e) {
 		if (this.isScroll) { return; }
 		
+		let listStyle = this.$list.style;
 		if (this.isSlide) {
-			this.$list.style.transform       = 'translate3d(' + this.distX + 'px,0,0)';
-			this.$list.style.webkitTransform = 'translate3d(' + this.distX + 'px,0,0)';
+			listStyle.webkitTransform = 'translate3d(' + this.distX + 'px,0,0)';
+			listStyle.transform       = 'translate3d(' + this.distX + 'px,0,0)';
 		} else if (Math.abs(this.distY) < Math.abs(this.distX)) {
 			e.preventDefault();
-			this.$list.style.transform       = 'translate3d(' + this.distX + 'px,0,0)';
-			this.$list.style.webkitTransform = 'translate3d(' + this.distX + 'px,0,0)';
+			listStyle.webkitTransform = 'translate3d(' + this.distX + 'px,0,0)';
+			listStyle.transform       = 'translate3d(' + this.distX + 'px,0,0)';
 			this.isSlide = true;
 			// clearInterval(this.autoPlay);
 		} else {
@@ -219,10 +220,11 @@ TIB.Slideshow = class _Slideshow {
 	}
 	
 	_endSlide() {
-		this.$list.style.transition       = 'transform .45s ease';
-		this.$list.style.transform        = 'translate3d(0,0,0)';
-		this.$list.style.webkitTransition = '-webkit-transform .45s ease';
-		this.$list.style.webkitTransform  = 'translate3d(0,0,0)';
+		let listStyle = this.$list.style;
+		listStyle.webkitTransition = '-webkit-transform .45s ease';
+		listStyle.webkitTransform  = 'translate3d(0,0,0)';
+		listStyle.transition       = 'transform .45s ease';
+		listStyle.transform        = 'translate3d(0,0,0)';
 		
 		if (Math.abs(this.distX) >= 60) {
 			if (this.distX < 0) {
