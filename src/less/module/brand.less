@@ -9,6 +9,11 @@
 	width: (160em/16);
 	height: (42em/16);
 	overflow: hidden;
+	user-select: none;
+	
+	@media (min-width: 960px) {
+		font-size: 20px;
+	}
 	
 	@media (max-width: 639px) {
 		order: 2;
@@ -33,17 +38,33 @@
 	letter-spacing: @brand-tib-slogan-tracking;
 	text-indent: @brand-tib-slogan-tracking;
 	white-space: nowrap;
+	
+	.ua-Safari & {
+		@media (min-width: 960px) {
+			letter-spacing: (775em/1000);
+			text-indent: (775em/1000);
+		}
+		
+		@media (max-width: 639px) {
+			letter-spacing: (800em/1000);
+			text-indent: (900em/1000);
+		}
+	}
 }
 
 .brand-tib10 {
 	display: flex;
 	flex-shrink: 0;
 	height: (42em/16);
+	user-select: none;
+	
+	@media (min-width: 960px) {
+		font-size: 20px;
+	}
 	
 	@media (max-width: 639px) {
 		order: 1;
 	}
-	
 	@media (max-width: 359px) {
 		font-size: (14px);
 	}

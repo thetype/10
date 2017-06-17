@@ -145,6 +145,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/src\/assets\/og-image.jpg": {
+		"ft": 16384,
+		"iS": 160993,
+		"oA": 2,
+		"oAP": "\/test\/assets\/og-image.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/src\/assets\/vconsole.min.js": {
 		"ft": 64,
 		"mi": 0,
@@ -536,12 +546,12 @@
 		},
 	"\/src\/images\/souvenir-new-5.jpg": {
 		"ft": 16384,
-		"iS": 69012,
-		"oA": 2,
+		"iS": 31989,
+		"oA": 0,
 		"oAP": "\/test\/images\/souvenir-new-5.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/src\/images\/souvenir-new-6.jpg": {
@@ -901,7 +911,7 @@
 		"sM": 1,
 		"sU": 1
 		},
-	"\/src\/less\/module\/brand-new.less": {
+	"\/src\/less\/module\/archive-v0.6.x\/brand.less": {
 		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
@@ -910,7 +920,58 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/test\/less\/test\/assets\/brand-new.css",
+		"oAP": "\/test\/less\/test\/assets\/brand.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/src\/less\/module\/archive-v0.6.x\/post.less": {
+		"aP": 1,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/test\/less\/test\/assets\/post.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/src\/less\/module\/archive-v0.6.x\/slideshow.less": {
+		"aP": 1,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/test\/less\/test\/assets\/slideshow.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 1,
+		"sU": 1
+		},
+	"\/src\/less\/module\/archive-v0.6.x\/souvenir.less": {
+		"aP": 1,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/test\/less\/test\/assets\/souvenir.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -935,23 +996,6 @@
 		"sM": 1,
 		"sU": 1
 		},
-	"\/src\/less\/module\/post-new.less": {
-		"aP": 1,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/test\/less\/test\/assets\/post-new.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 1,
-		"sU": 1
-		},
 	"\/src\/less\/module\/post.less": {
 		"aP": 1,
 		"bl": 0,
@@ -962,23 +1006,6 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/test\/less\/test\/assets\/post.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 1,
-		"sU": 1
-		},
-	"\/src\/less\/module\/slideshow-new.less": {
-		"aP": 1,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/test\/less\/test\/assets\/slideshow-new.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -1003,23 +1030,6 @@
 		"sM": 1,
 		"sU": 1
 		},
-	"\/src\/less\/module\/souvenir-new.less": {
-		"aP": 1,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/test\/less\/test\/assets\/souvenir-new.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 1,
-		"sU": 1
-		},
 	"\/src\/less\/module\/souvenir.less": {
 		"aP": 1,
 		"bl": 0,
@@ -1037,7 +1047,7 @@
 		"sM": 1,
 		"sU": 1
 		},
-	"\/src\/less\/template\/home-new.less": {
+	"\/src\/less\/template\/archive-v0.6.x\/home.less": {
 		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
@@ -1046,7 +1056,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/test\/less\/test\/assets\/home-new.css",
+		"oAP": "\/test\/less\/test\/assets\/home.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -1112,7 +1122,7 @@
 	"displayValue": "TIB-Tenth",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 519251315
+	"lastBuiltDate": 519407596
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

@@ -2,7 +2,14 @@ extends ../_template
 
 block var
 	- var assetsPath = ""
-	- var pageTitl = "Tenth Anniversary · Type is Beautiful" + ""
+	- var pageTitl = "十周年 · Type is Beautiful" + ""
+	- var ogLink = "https://www.typeisbeautiful.com/10/"
+	- var ogType = "website"    // "music.xxx", "video.xxx", "article", "book", "profile", "website"
+	- var ogTitl = pageTitl
+	- var ogDesc = pageDesc
+	- var ogImag = `${assetsPath}assets/og-image.jpg?v=${verTag}`
+	- var twCard = "summary_large_image"    // "summary_large_image", "summary, "app", "player"
+	- var twUser = "@thetype"
 	- var bodyClass = "home"
 	- var bodyClassModifier = ""
 	//--- Data
