@@ -26,8 +26,7 @@
 		width: (22em/12);
 		background-color: @bg-theme;
 		border-radius: 100%;
-		// border: (2em/12) solid @bg-black;
-		border: (2em/12) solid @bg-theme;
+		border: (2em/12) solid @bg-black;
 		margin-right: (-12em/12);
 		font-family: @font-sans;
 		font-size: (12em/20);
@@ -43,7 +42,7 @@
 		
 		&::after {
 			font-size: (12em/18);
-			// border-width: (1.5em/12);
+			border-width: (1.5em/12);
 		}
 	}
 }
@@ -55,35 +54,26 @@
 	max-width: (1080em/16);
 	padding: 0 (24em/16);
 	margin: (16em/16) auto 0;
-	
-	@media (max-width: 639px) {
-		padding: 0 (4em/16);
-	}
 }
 .souvenir-item {
 	overflow: hidden;
-	flex-grow: 1;
+	flex-grow: 0;
 	flex-shrink: 0;
-	flex-basis: 25%;
-	// width: (240em/16);
-	margin: (32em/16) (4em/16);
+	width: (240em/16);
+	margin: (32em/16) (60em/16);
 	
 	@media (max-width: 1279px) {
-		// margin-left: (48em/16);
-		// margin-right: (48em/16);
+		margin-left: (48em/16);
+		margin-right: (48em/16);
 	}
+	
 	@media (max-width: 959px) {
-		// margin-left: (32em/16);
-		// margin-right: (32em/16);
+		margin-left: (32em/16);
+		margin-right: (32em/16);
 	}
+	
 	@media (max-width: 639px) {
-		flex-basis: 40%;
-		// margin: (24em/16);
-		margin-top: (24em/16);
-		margin-bottom: (24em/16);
-	}
-	@media (max-width: 420px) {
-		flex-basis: 75%;
+		margin: (24em/16);
 	}
 }
 .souvenir-target {
@@ -96,13 +86,11 @@
 	position: relative;
 	overflow: hidden;
 	width: (218em/16);
-	width: 100%;
-	// height: (1/1 * 218em/16);
-	padding-bottom: 100%;
-	// border-radius: 100%;
-	// border: (2em/16) solid @bg-black;
+	height: (218em/16);
+	border-radius: 100%;
+	border: (3em/16) solid @bg-black;
 	margin: 0 auto;
-	// background-color: @bg-theme;
+	background-color: @bg-theme;
 	
 	&::before {
 		content: "";
@@ -112,7 +100,7 @@
 		z-index: @zIndex-1;
 		width: 100%;
 		height: 100%;
-		// border-radius: 100%;
+		border-radius: 100%;
 		background-color: fadeout(@bg-theme, 2%);
 		opacity: 0;
 		.color-transition();
@@ -136,9 +124,9 @@
 	}
 	
 	@media (max-width: 639px) {
-		// width: (220em/16);
-		// height: (220em/16);
-		// border-width: (2em/16);
+		width: (220em/16);
+		height: (220em/16);
+		border-width: (2em/16);
 	}
 }
 .ua-Pointer .souvenir-target:hover  .souvenir-thumb,
@@ -152,8 +140,7 @@
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	// height: 100%;
-	width: 100%;
+	height: 100%;
 	transform: translate(-50%, -50%);
 }
 /*--- Thumb END ---*/
@@ -164,11 +151,11 @@
 .souvenir-name {
 	margin-top: (24em/20);
 	margin-bottom: (8em/20);
-	font-size: (16em/16);
+	font-size: (20em/16);
 	
 	@media (max-width: 639px) {
 		margin-top: (18em/18);
 		margin-bottom: (6em/18);
-		// font-size: (16em/16);
+		font-size: (18em/16);
 	}
 }
