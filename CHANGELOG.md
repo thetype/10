@@ -1,10 +1,19 @@
 CHANGELOG
 =========
 
+### Version [1.1.1] (2017-06-18)
+
+#### Testbench
+- <https://thetype.github.io/10/?v1.1.1>
+
+#### Changed
+- Update page description.
+- Update `og:image`/`twitter:image` asset's URL.
+
 ### Version [1.1.0] (2017-06-17)
 
 #### Testbench
-- <https://thetype.github.io/10/?v1.0.0>
+- <https://thetype.github.io/10/?v1.1.0>
 
 #### Added
 + New manuscript.
@@ -238,6 +247,7 @@ CHANGELOG
 
 
 
+[1.1.1]: https://github.com/thetype/10/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/thetype/10/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/thetype/10/compare/v0.7.1...v1.0.0
 [0.7.1]: https://github.com/thetype/10/compare/v0.7.0...v0.7.1
