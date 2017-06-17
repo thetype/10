@@ -1,14 +1,5 @@
 .home-header {
-	// display: flex;
-	// flex-direction: column;
-	// height: 100vh;
-	
-	@media (max-width: 639px) {
-		// height: calc(100vw + 90em/16);
-	}
-	
 	.brand-header {
-		// flex-grow: 0;
 		padding-top: (24em/16);
 		padding-bottom: (24em/16);
 		margin: 0 (24em/16);
@@ -19,18 +10,25 @@
 			margin-left: (32em/16);
 			margin-right: (32em/16);
 		}
+		@media (min-width: 1280px) {
+			padding-top: (40em/16);
+			margin-left: (48em/16);
+			margin-right: (48em/16);
+		}
 		
 		@media (max-width: 639px) {
-			// padding-top: (16em/16);
-			// padding-bottom: (16em/16);
 			margin-left: (8em/16);
 			margin-right: (8em/16);
 		}
 	}
 	
 	.slideshow {
-		// flex-grow: 1;
 		margin: 0 (12em/16) (12em/16);
+		
+		@media (min-width: 1280px) {
+			margin-left: (48em/16);
+			margin-right: (48em/16);
+		}
 		
 		@media (max-width: 959px) {
 			margin: 0 (6em/16) (6em/16);
@@ -57,7 +55,6 @@
 			.brand-tib-slogan {
 				letter-spacing: (800em/1000) !important;
 				text-indent: (800em/1000) !important;
-				
 				.ua-Safari & {
 					letter-spacing: (800em/1000) !important;
 					text-indent: (700em/1000) !important;
