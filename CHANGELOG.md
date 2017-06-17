@@ -9,6 +9,7 @@ CHANGELOG
 #### Added
 + New manuscript.
 + New image of the 5th sourvenir.
++ Open Graph configurations.
 
 #### Changed
 * Article typography:
