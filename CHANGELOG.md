@@ -1,6 +1,14 @@
 CHANGELOG
 =========
 
+### Version [1.1.4] (2017-06-18)
+
+#### Testbench
+- <https://thetype.github.io/10/?v1.1.4>
+
+#### Changed
+* Polish two em-dash style.
+
 ### Version [1.1.3] (2017-06-18)
 
 #### Testbench
@@ -264,6 +272,7 @@ CHANGELOG
 
 
 
+[1.1.4]: https://github.com/thetype/10/compare/v1.1.3...v1.1.4
 [1.1.3]: https://github.com/thetype/10/compare/v1.1.2...v1.1.3
 [1.1.2]: https://github.com/thetype/10/compare/v1.1.1...v1.1.2
 [1.1.1]: https://github.com/thetype/10/compare/v1.1.0...v1.1.1
