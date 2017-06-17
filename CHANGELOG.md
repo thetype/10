@@ -1,14 +1,22 @@
 CHANGELOG
 =========
 
+### Version [1.1.3] (2017-06-18)
+
+#### Testbench
+- <https://thetype.github.io/10/?v1.1.3>
+
+#### Changed
+* Reword copy.
+
 ### Version [1.1.2] (2017-06-18)
 
 #### Testbench
 - <https://thetype.github.io/10/?v1.1.2>
 
 #### Changed
-- Change `og:image`/`twitter:image` asset ratio to 2:1.
-- Append version tag for `og:image`/`twitter:image` asset's URL.
+* Change `og:image`/`twitter:image` asset ratio to 2:1.
+* Append version tag for `og:image`/`twitter:image` asset's URL.
 
 ### Version [1.1.1] (2017-06-18)
 
@@ -16,8 +24,8 @@ CHANGELOG
 - <https://thetype.github.io/10/?v1.1.1>
 
 #### Changed
-- Update page description.
-- Update `og:image`/`twitter:image` asset's URL.
+* Update page description.
+* Update `og:image`/`twitter:image` asset's URL.
 
 ### Version [1.1.0] (2017-06-17)
 
@@ -256,6 +264,7 @@ CHANGELOG
 
 
 
+[1.1.3]: https://github.com/thetype/10/compare/v1.1.2...v1.1.3
 [1.1.2]: https://github.com/thetype/10/compare/v1.1.1...v1.1.2
 [1.1.1]: https://github.com/thetype/10/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/thetype/10/compare/v1.0.0...v1.1.0
