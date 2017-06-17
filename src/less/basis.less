@@ -35,13 +35,13 @@ body {
 	font-family: "GB Punct Sans";
 	font-weight: 500;
 	src: local("PingFang SC"), local("Hiragino Sans GB"), local("Heiti SC"), local("Microsoft YaHei UI"), local("Microsoft YaHei");
-	unicode-range: U+002F, U+2014, U+00B7, U+2026, U+201C, U+201D;
+	unicode-range: U+002F, U+2014, U+00B7, U+2026/*, U+201C, U+201D*/;
 }
 @font-face {
 	font-family: "GB Punct Serif";
 	font-weight: 500;
-	src: local("Source Han Serif SC"), local("Noto Serif CJK SC"), local("Songti SC"), local("SimSun");
-	unicode-range: U+002F, U+2014, U+00B7, U+2026, U+201C, U+201D;
+	src: local("Source Han Serif SC"), local("Noto Serif CJK SC"), local("Songti SC"), local("Hiragino Mincho ProN"), local("SimSun");
+	unicode-range: U+002F, U+2014, U+00B7, U+2026/*, U+201C, U+201D*/;
 }
 
 .gb-punct--sans {
@@ -49,6 +49,9 @@ body {
 }
 .gb-punct--serif {
 	font-family: "GB Punct Serif", @font-serif;
+}
+.gb-punct-comp {
+	letter-spacing: 0;
 }
 /*====== Chinese punctuation optimization END ======*/
 
