@@ -4,7 +4,7 @@
 		+ ",initial-scale=1.0"
 		//- + ",maximum-scale=1.0"
 		//- + ",minimum-scale=1.0"
-	var pageDisc = "The tenth anniversary of Type is Beautiful."
+	var pageDesc = "The tenth anniversary of Type is Beautiful."
 		+ "｜"
 		+ "Type is Beautiful 是一个关于文字设计和视觉文化的媒体计划。"
 		+ "我们关注的话题包括字体、排版、平面设计、公共设计、技术和视觉文化。"
@@ -16,11 +16,13 @@
 		+ "视觉,文化,历史,技术,"
 		+ "评论,批评,翻译,原创,中文"
 
+block var
+
 head
 	meta(charset="utf-8")
 	title= pageTitl
 	meta(name="title"       content=pageTitl)
-	meta(name="description" content=pageDisc)
+	meta(name="description" content=pageDesc)
 	meta(name="keywords"    content=pageKeyw)
 	meta(name="viewport"    content=viewport)
 	meta(name="format-detection" content="telephone=no")
@@ -37,6 +39,18 @@ head
 	link(rel="apple-touch-icon" sizes="180x180" href=`${assetsPath}assets/apple-touch-icon-180.png?v=${verTag}`)
 	link(rel="shortcut icon" href=`${assetsPath}assets/favicon.ico?v=${verTag}`)
 	link(rel="stylesheet"    href=`${assetsPath}assets/app.css?v=${verTag}`)
+	
+	meta(property="og:url"          content=ogLink)
+	meta(property="og:type"         content=ogType)
+	meta(property="og:title"        content=ogTitl)
+	meta(property="og:description"  content=ogDesc)
+	meta(property="og:image"        content=ogImag)
+	meta(name="twitter:card"        content=twCard)
+	meta(name="twitter:site"        content=twUser)
+	meta(name="twitter:creator"     content=twUser)
+	meta(name="twitter:title"       content=ogTitl)
+	meta(name="twitter:description" content=ogDesc)
+	meta(name="twitter:image"       content=ogImag)
 	
 	block headScripts
 		//- script(type="text/javascript" src=`${assetsPath}assets/vconsole.min.js?v=${verTag}`)
