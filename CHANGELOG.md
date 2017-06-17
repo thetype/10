@@ -1,6 +1,36 @@
 CHANGELOG
 =========
 
+### Version [1.1.0] (2017-06-17)
+
+#### Testbench
+- <https://thetype.github.io/10/?v1.0.0>
+
+#### Added
++ New manuscript.
++ New image of the 5th sourvenir.
+
+#### Changed
+* Article typography:
+	- Increase tracking for H1 and H3.
+	- Increase font-size for text, when screen width is larger than 1280 px.
+	- Refine multi-col layout for responsive screens.
+* Slideshow:
+	- Increase slideshow pager's hover area.
+	- Increase slideshow's margins, when screen width is larger than 1280 px.
+* Brand:
+	- Increase header brand module's margins, when screen width is larger than 1280 px.
+	- Enlarge TIB logo size in page footer, when screen width is larger than 640 px.
+* Souvenir:
+	- Increase font-size and tracking for the module heading (following the article H1).
+	- Increase font-size of souvenir info (following the article body text).
+	- Increase margins for sourvenir info.
+
+#### Fixed
+- Fix slideshow's height collapse for Edge and Gecko. (See issue [#1](https://github.com/thetype/10/issues/1).)
+
+* * *
+
 ### Version [1.0.0] (2017-06-16)
 
 #### Testbench
@@ -207,6 +237,7 @@ CHANGELOG
 
 
 
+[1.1.0]: https://github.com/thetype/10/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/thetype/10/compare/v0.7.1...v1.0.0
 [0.7.1]: https://github.com/thetype/10/compare/v0.7.0...v0.7.1
 [0.7.0]: https://github.com/thetype/10/compare/v0.6.2...v0.7.0
