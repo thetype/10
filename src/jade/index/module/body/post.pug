@@ -8,13 +8,15 @@ section.home-body-article
 			p.post-p 2017 年 Type is Beautiful 迎来了十周年，十年间我们一直在中文世界致力于文字设计和视觉文化的研究及探讨。十年前，「文字设计」在中文世界是个陌生词眼，当今已然成为一个热门领域。TIB 也顺应着这轮社会和行业的变革，冀望以诚恳、严肃的态度，从无到有，为读者提供关于文字设计和相关领域的崭新视角及故事。十年来，TIB 从最初的文字内容延伸出成功的播客节目《字谈字畅》，TypeTour 等系列主题活动，「上海活字」等支持项目，也翻译、出版了多本相关书籍，协助多个主题展览和讲座，成为中文世界推进文字设计文化的领先力量。
 			p.post-p 未来 TIB 希望成为一个涉猎更广的媒体计划。我们将关注以文字、图像、技术和其他视觉元素为核心的沟通手段及其历史发展，并继续探讨媒体、文化和公共事业藉此沟通手段对社会和生活的影响。我们希望继续做好文字和播客内容，以此为基础，开始进行更多的出版、展览、对话等活动，与读者、听众和机构进行更频繁更多样的交流。
 		
-		.post-gallery
-			each item in _data.galleries[0]
-				.post-gallery-item
-					figure.post-figure
-						img.post-img(src=`${assetsPath}${item.img}?v=${verTag}` alt=item.caption)
-						figcaption.post-figcaption= item.caption
-	
+		.post-movie
+			.post-movie-wrap
+				video.post-movie-video(
+					src=_data.video.src
+					poster=`${assetsPath}${_data.video.poster}?v=${verTag}`
+					autoplay=false
+					controls=true
+				)
+		
 		h1.post-h1 十周年庆沙龙
 		h3.post-h3 2017 年 5 月 27 日，上海「那行·零度空间」
 		.post-body
@@ -22,7 +24,7 @@ section.home-body-article
 			p.post-p 「那行·零度空间」闹中取静，藏于上海镇宁路曲折的老弄堂里，尽管有些难找，不少朋友还是早早地来签到。每位入场的来宾，都收到了我们的友人 Florrie 亲手烘焙并包装的「TIB」字母曲奇。二层的小型展示空间陈列着 TIB 作者撰写或翻译的书籍，以及为十周年设计的四款纪念海报。穿过渡桥，来宾们品尝小食、挑选纪念品，活动的序幕渐渐拉开。
 		
 		.post-gallery
-			each item in _data.galleries[1]
+			each item in _data.galleries[0]
 				.post-gallery-item
 					figure.post-figure
 						img.post-img(src=`${assetsPath}${item.img}?v=${verTag}` alt=item.caption)
@@ -40,6 +42,13 @@ section.home-body-article
 			h4.post-h4 TypeTour、TypeTour pro 和 TypeSchool
 			p.post-p <a href="//www.typeisbeautiful.com/2016/11/11147/">TypeTour</a> 发起于 2016 年，让 TIB 接触到了许多来自各行各业对字体满怀热忱或好奇的朋友。在现场的最后一环分享中，策划人厉致谦回顾了旅行项目的开端，也介绍了最新一期的<a href="//www.typeisbeautiful.com/2017/05/12186/">港澳深旅程</a>，并正式推出与台湾 justfont 合作的 <a href="//www.typeisbeautiful.com/2017/06/12371/">TypeTour pro</a> 字体游学项目；TIB 的合作伙伴 3type（三言），今夏还将在上海开办 <a href="//www.typeisbeautiful.com/2017/05/12314/">TypeSchool</a>。无论于行走中观察字体背后的文化样貌，还是在课堂中学习专业的理论与技能，我们都希望为推广文字设计与视觉文化而助力。
 			p.post-p <br>最后，我们邀请现场的朋友参与互动游戏，并与 TIB 成员进行问答交流。
+		
+		.post-gallery
+			each item in _data.galleries[1]
+				.post-gallery-item
+					figure.post-figure
+						img.post-img(src=`${assetsPath}${item.img}?v=${verTag}` alt=item.caption)
+						figcaption.post-figcaption= item.caption
 		
 		h1.post-h1 欢聚有时，更重要的是继续前行
 		.post-body
