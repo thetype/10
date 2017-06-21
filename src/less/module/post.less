@@ -46,7 +46,8 @@
 	margin-right: auto;
 	font-size: (20em/16);
 	letter-spacing: 1px;
-	font-weight: 500;
+	font-weight: 400;
+	.wf-active & { font-weight: 500; }
 	line-height: (30/20);
 	text-align: center;
 	hyphens: auto;
@@ -120,7 +121,8 @@
 }
 .post-h4 {
 	font-size: 1em;
-	font-weight: 700;
+	font-weight: 600;
+	.wf-active & { font-weight: 700; }
 	line-height: (28/16);
 	margin-top: (28em/16);
 }
@@ -162,7 +164,45 @@
 		.ua-Pointer &:hover, &:active { opacity: .5; }
 	}
 }
+.post-widow {
+	display: inline-block;
+	text-indent: 0;
+}
 /*--- Body text END ---*/
+
+/*--- Movie ---*/
+.post-movie {
+	margin-top: (96em/16);
+	margin-bottom: (96em/16);
+	margin-left: (48em/16);
+	margin-right: (48em/16);
+	
+	@media (max-width: 1279px) {
+		margin-left: (12em/16);
+		margin-right: (12em/16);
+	}
+	@media (max-width: 959px) {
+		margin-left: (6em/16);
+		margin-right: (6em/16);
+	}
+	@media (max-width: 639px) {
+		margin-top: (48em/16);
+		margin-bottom: (48em/16);
+	}
+}
+.post-movie-wrap {
+	position: relative;
+	width: 100%;
+	padding-bottom: (720/1280 * 100%);
+}
+.post-movie-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+/*--- Movie END ---*/
 
 /*--- Gallery ---*/
 .post-gallery {
@@ -178,13 +218,11 @@
 		margin-left: (12em/16);
 		margin-right: (12em/16);
 	}
-	
 	@media (max-width: 959px) {
 		flex-wrap: wrap;
 		margin-left: (4em/16);
 		margin-right: (4em/16);
 	}
-	
 	@media (max-width: 639px) {
 		margin-top: (48em/16);
 		margin-bottom: (48em/16);

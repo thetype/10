@@ -21,9 +21,12 @@
  * Font
  */
 
+@font-system: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, "Noto Sans", Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei UI", "Microsoft YaHei", "Source Han Sans", sans-serif;
 @font-sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, "Noto Sans", Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei UI", "Microsoft YaHei", "Source Han Sans", sans-serif;
-@font-serif: "Adobe Caslon Pro", "adobe-caslon-pro", Athelas, "Sitka Text", Times, "Times New Roman", "Source Han Serif SC", "Noto Serif CJK SC", "source-han-serif-sc", "Songti SC", SimSun, serif;
-@font-serif--safe: "Adobe Caslon Pro", "Minion Pro", "minion-pro", Athelas, "Sitka Text", Times, "Times New Roman", "Source Han Serif SC", "Noto Serif CJK SC", "source-han-serif-sc", "Songti SC", SimSun, serif;
+// @font-serif: "Adobe Caslon Pro", "adobe-caslon-pro", Athelas, "Sitka Text", Times, "Times New Roman", "Source Han Serif SC", "Noto Serif CJK SC", "source-han-serif-sc", "Songti SC", SimSun, serif;
+@font-serif: "adobe-caslon-pro", "source-han-serif-sc", @font-system;
+// @font-serif--safe: "Adobe Caslon Pro", "Minion Pro", "minion-pro", Athelas, "Sitka Text", Times, "Times New Roman", "Source Han Serif SC", "Noto Serif CJK SC", "source-han-serif-sc", "Songti SC", SimSun, serif;
+@font-serif--safe: "minion-pro", "source-han-serif-sc", @font-system;
 @font-base: @font-serif;
 
 

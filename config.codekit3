@@ -7,7 +7,7 @@
 		"uuidString": "CD9B11D5-75D2-4537-BAFE-0C6EECCE4123"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "25849",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -163,6 +163,16 @@
 		"oF": 3,
 		"sC": 0,
 		"tS": 0
+		},
+	"\/src\/assets\/video-poster.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/test\/assets\/video-poster.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/src\/images\/gallery-1-1.jpg": {
 		"ft": 16384,
@@ -1122,7 +1132,7 @@
 	"displayValue": "TIB-Tenth",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 519414037
+	"lastBuiltDate": 519756945
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3058,6 +3068,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/test, \/_design, \/_copy",
 	"sourceFolderName": "src",
