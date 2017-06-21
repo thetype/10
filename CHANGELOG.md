@@ -1,10 +1,12 @@
 CHANGELOG
 =========
 
-### Version [1.1.4] (2017-06-18)
-
 #### Testbench
-- <https://thetype.github.io/10/?v1.1.4>
+- <https://thetype.github.io/10/?v1.2.0>
+
+* * *
+
+### Version [1.1.4] (2017-06-18)
 
 #### Changed
 * Polish two em-dash style.
@@ -19,26 +21,17 @@ CHANGELOG
 
 ### Version [1.1.2] (2017-06-18)
 
-#### Testbench
-- <https://thetype.github.io/10/?v1.1.2>
-
 #### Changed
 * Change `og:image`/`twitter:image` asset ratio to 2:1.
 * Append version tag for `og:image`/`twitter:image` asset's URL.
 
 ### Version [1.1.1] (2017-06-18)
 
-#### Testbench
-- <https://thetype.github.io/10/?v1.1.1>
-
 #### Changed
 * Update page description.
 * Update `og:image`/`twitter:image` asset's URL.
 
 ### Version [1.1.0] (2017-06-17)
-
-#### Testbench
-- <https://thetype.github.io/10/?v1.1.0>
 
 #### Added
 + New manuscript.
@@ -68,9 +61,6 @@ CHANGELOG
 
 ### Version [1.0.0] (2017-06-16)
 
-#### Testbench
-- <https://thetype.github.io/10/?v1.0.0>
-
 #### Added
 + Add an interaction hint for the slideshow.
 
@@ -84,16 +74,10 @@ CHANGELOG
 
 ### Version [0.7.1] (2017-06-16)
 
-#### Testbench
-- <https://thetype.github.io/10/?v0.7.1>
-
 #### Fixed
 - Slideshow transition duration mismatching on touch devices.
 
 ### Version [0.7.0] (2017-06-16)
-
-#### Testbench
-- <https://thetype.github.io/10/?v0.7.0>
 
 #### Added
 + New image assets for the slideshow, two sets of gallery, and souvenirs.
@@ -109,16 +93,10 @@ CHANGELOG
 
 ### Version [0.6.2] (2017-06-15)
 
-#### Testbench
-- <https://thetype.github.io/10/?v0.6.2>
-
 #### Added
 + Add Google Analytics.
 
 ### Version [0.6.1] (2017-06-14)
-
-#### Testbench
-- <https://thetype.github.io/10/?v0.6.1>
 
 #### Added
 + New figures and captions for body article.
@@ -127,9 +105,6 @@ CHANGELOG
 * Decouple gallery data (images and captions) from body article's template.
 
 ### Version [0.6.0] (2017-06-14)
-
-#### Testbench
-- <https://thetype.github.io/10/?v0.6.0>
 
 #### Added
 + Add the [README](README).
@@ -141,25 +116,16 @@ CHANGELOG
 
 ### Version [0.5.2] (2017-06-14)
 
-#### Testbench
-- <https://realfish.github.io/tib-tenth/?v0.5.2>
-
 #### Fixed
 * Remove font-weight adjustment for Android, since webfont are installed.
 * Refine typography for mobile screens to reduce widows.
 
 ### Version [0.5.1] (2017-06-14)
 
-#### Testbench
-- <https://realfish.github.io/tib-tenth/?v0.5.1>
-
 #### Fixed
 - Fix copy for souvenirs.
 
 ### Version [0.5.0] (2017-06-14)
-
-#### Testbench
-- <https://realfish.github.io/tib-tenth/?v0.5.0>
 
 #### Added
 + Official copy (proof needed).
@@ -176,9 +142,6 @@ CHANGELOG
 
 ### Version [0.4.1] (2017-06-11)
 
-#### Testbench
-- <https://realfish.github.io/tib-tenth/?v0.4.1>
-
 #### Changed
 * Polish the shape of slideshow pagers.
 
@@ -187,9 +150,6 @@ CHANGELOG
 - Remove unused variables in JS.
 
 ### Version [0.4.0] (2017-06-11)
-
-#### Testbench
-- <https://realfish.github.io/tib-tenth/?v0.4.0>
 
 #### Added
 + Make a responsive slideshow component.
@@ -206,16 +166,10 @@ CHANGELOG
 
 ### Version [0.3.1] (2017-06-10)
 
-#### Testbench
-- <https://realfish.github.io/tib-tenth/?v0.3.1>
-
 #### Fixed
 - Fix the centering for `.souvenir-thumb` with micro-typography polishments.
 
 ### Version [0.3.0] (2017-06-10)
-
-#### Testbench
-- <https://realfish.github.io/tib-tenth/?v0.3.0>
 
 #### Added
 + Make the layout, typesetting, and other detail styles responsive for almost all screen widthes.
@@ -229,24 +183,15 @@ CHANGELOG
 
 ### Version [0.2.2] (2017-06-09)
 
-#### Testbench
-- <https://realfish.github.io/tib-tenth/?v0.2.2>
-
 #### Fixed
 + Restore completeness  of the `.brand-tib10`.
 
 ### Version [0.2.1] (2017-06-09)
 
-#### Testbench
-- <https://realfish.github.io/tib-tenth/?v0.2.1>
-
 #### Fixed
 - Fix the `overflow: hidden` failure in Safari (Mac) for `$('.souvenir-thumb')`.
 
 ### Version [0.2.0] (2017-06-09)
-
-#### Testbench
-- <https://realfish.github.io/tib-tenth/?v0.2.0>
 
 #### Added
 + Restructer the homepage of the TIB10-Recap site.
@@ -255,9 +200,6 @@ CHANGELOG
 * * *
 
 ### Version 0.1.0 (2017-06-08)
-
-#### Testbench
-- <https://realfish.github.io/tib-tenth/?v0.1.0>
 
 #### Added
 + Mock up the main modules, including header, hero, body, and footer.
@@ -272,6 +214,7 @@ CHANGELOG
 
 
 
+[1.2.0]: https://github.com/thetype/10/compare/v1.1.4...v1.2.0
 [1.1.4]: https://github.com/thetype/10/compare/v1.1.3...v1.1.4
 [1.1.3]: https://github.com/thetype/10/compare/v1.1.2...v1.1.3
 [1.1.2]: https://github.com/thetype/10/compare/v1.1.1...v1.1.2
