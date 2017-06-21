@@ -2,13 +2,12 @@
 <svg width="1280px" height="720px" viewBox="0 0 1280 720" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFE050;">
     <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
     <title>video-poster</title>
+    <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" fill="#000000">
-            <g id="Group" transform="translate(512.000000, 230.000000)">
-                <rect id="Rectangle" x="0" y="0" width="3" height="240"></rect>
-                <path d="M156,240 C89.72583,240 36,186.27417 36,120 C36,53.72583 89.72583,0 156,0 C222.27417,0 276,53.72583 276,120 C276,186.27417 222.27417,240 156,240 Z M156,237 C220.617316,237 273,184.617316 273,120 C273,55.3826843 220.617316,3 156,3 C91.3826843,3 39,55.3826843 39,120 C39,184.617316 91.3826843,237 156,237 Z" id="Combined-Shape"></path>
-            </g>
+        <g id="video-poster" fill="#000000">
+            <rect id="Rectangle" x="484" y="230" width="3" height="240"></rect>
+            <path d="M640,470 C573.72583,470 520,416.27417 520,350 C520,283.72583 573.72583,230 640,230 C706.27417,230 760,283.72583 760,350 C760,416.27417 706.27417,470 640,470 Z M640,467 C704.617316,467 757,414.617316 757,350 C757,285.382684 704.617316,233 640,233 C575.382684,233 523,285.382684 523,350 C523,414.617316 575.382684,467 640,467 Z" id="Combined-Shape"></path>
         </g>
     </g>
 </svg>
