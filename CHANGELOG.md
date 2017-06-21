@@ -6,6 +6,27 @@ CHANGELOG
 
 * * *
 
+### Version [1.2.0] (2017-06-21)
+
+#### Added
++ Add the felicitation video.
++ Add a default video poster asset (SVG).
+
+#### Changed
+* Update TIB logo and slogan's sizing approch for better robust:
+	- Use pixel-unit fixed `font-size` and `letter-spacing`.
+	- Scale it to the expected size by `transform: scale`.
+	- Set slogan's `font-size` to `20px` as a workaround to implement robust small-size texts.
+* Slideshow:
+	- Add the 9th slide back.
+	- Update CSS to refine dragging sensitivity and smooth transitions.
+* Typography:
+	- Handle widows.
+	- Change serif font fallback lists for better family consistency before webfonts loaded.
+	- Twist font weight configurations before webfont loaded.
+
+* * *
+
 ### Version [1.1.4] (2017-06-18)
 
 #### Changed
