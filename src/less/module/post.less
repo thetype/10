@@ -164,6 +164,40 @@
 }
 /*--- Body text END ---*/
 
+/*--- Movie ---*/
+.post-movie {
+	margin-top: (96em/16);
+	margin-bottom: (96em/16);
+	margin-left: (48em/16);
+	margin-right: (48em/16);
+	
+	@media (max-width: 1279px) {
+		margin-left: (12em/16);
+		margin-right: (12em/16);
+	}
+	@media (max-width: 959px) {
+		margin-left: (6em/16);
+		margin-right: (6em/16);
+	}
+	@media (max-width: 639px) {
+		margin-top: (48em/16);
+		margin-bottom: (48em/16);
+	}
+}
+.post-movie-wrap {
+	position: relative;
+	width: 100%;
+	padding-bottom: (720/1280 * 100%);
+}
+.post-movie-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+/*--- Movie END ---*/
+
 /*--- Gallery ---*/
 .post-gallery {
 	display: flex;
@@ -178,13 +212,11 @@
 		margin-left: (12em/16);
 		margin-right: (12em/16);
 	}
-	
 	@media (max-width: 959px) {
 		flex-wrap: wrap;
 		margin-left: (4em/16);
 		margin-right: (4em/16);
 	}
-	
 	@media (max-width: 639px) {
 		margin-top: (48em/16);
 		margin-bottom: (48em/16);
